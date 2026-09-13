@@ -1,0 +1,9 @@
+[
+  { "id": "europe", "label": "Европа" },
+  { "id": "asia", "label": "Азия" },
+  { "id": "africa", "label": "Африка" },
+  { "id": "north-america", "label": "Северная Америка" },
+  { "id": "south-america", "label": "Южная Америка" },
+  { "id": "middle-east", "label": "Ближний Восток" },
+  { "id": "oceania", "label": "Океания" }
+]

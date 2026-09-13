@@ -1,0 +1,510 @@
+[
+  {
+    "id": "abbasid-caliphate",
+    "label": "Аббасидский халифат"
+  },
+  {
+    "id": "australia",
+    "label": "Австралия"
+  },
+  {
+    "id": "austria",
+    "label": "Австрия"
+  },
+  {
+    "id": "austria-hungary",
+    "label": "Австро-Венгрия"
+  },
+  {
+    "id": "algeria",
+    "label": "Алжир"
+  },
+  {
+    "id": "al-andalus",
+    "label": "Аль-Андалус"
+  },
+  {
+    "id": "england",
+    "label": "Англия"
+  },
+  {
+    "id": "arabia",
+    "label": "Аравия"
+  },
+  {
+    "id": "argentina",
+    "label": "Аргентина"
+  },
+  {
+    "id": "assyria",
+    "label": "Ассирия"
+  },
+  {
+    "id": "afghanistan",
+    "label": "Афганистан"
+  },
+  {
+    "id": "bangladesh",
+    "label": "Бангладеш"
+  },
+  {
+    "id": "bolivia",
+    "label": "Боливия"
+  },
+  {
+    "id": "great-zimbabwe",
+    "label": "Большой Зимбабве"
+  },
+  {
+    "id": "brazil",
+    "label": "Бразилия"
+  },
+  {
+    "id": "babylonia",
+    "label": "Вавилония"
+  },
+  {
+    "id": "gran-colombia",
+    "label": "Великая Колумбия"
+  },
+  {
+    "id": "uk",
+    "label": "Великобритания"
+  },
+  {
+    "id": "hungary",
+    "label": "Венгрия"
+  },
+  {
+    "id": "venice",
+    "label": "Венецианская республика"
+  },
+  {
+    "id": "byzantine-empire",
+    "label": "Византийская империя"
+  },
+  {
+    "id": "vikings",
+    "label": "Викинги"
+  },
+  {
+    "id": "east-timor",
+    "label": "Восточный Тимор"
+  },
+  {
+    "id": "vietnam",
+    "label": "Вьетнам"
+  },
+  {
+    "id": "hawaii",
+    "label": "Гавайи"
+  },
+  {
+    "id": "haiti",
+    "label": "Гаити"
+  },
+  {
+    "id": "germany",
+    "label": "Германия"
+  },
+  {
+    "id": "ayyubid-dynasty",
+    "label": "Государство Айюбидов"
+  },
+  {
+    "id": "greece",
+    "label": "Греция"
+  },
+  {
+    "id": "delhi-sultanate",
+    "label": "Делийский султанат"
+  },
+  {
+    "id": "dr-congo",
+    "label": "Демократическая Республика Конго"
+  },
+  {
+    "id": "achaemenid-empire",
+    "label": "Держава Ахеменидов"
+  },
+  {
+    "id": "egypt",
+    "label": "Египет"
+  },
+  {
+    "id": "zanzibar",
+    "label": "Занзибарский султанат"
+  },
+  {
+    "id": "kingdom-of-jerusalem",
+    "label": "Иерусалимское королевство"
+  },
+  {
+    "id": "israel",
+    "label": "Израиль"
+  },
+  {
+    "id": "aztec-empire",
+    "label": "Империя ацтеков"
+  },
+  {
+    "id": "ashanti-empire",
+    "label": "Империя Ашанти"
+  },
+  {
+    "id": "mughal-empire",
+    "label": "Империя Великих Моголов"
+  },
+  {
+    "id": "vijayanagara-empire",
+    "label": "Империя Виджаянагар"
+  },
+  {
+    "id": "ghana-empire",
+    "label": "Империя Гана"
+  },
+  {
+    "id": "gupta-empire",
+    "label": "Империя Гуптов"
+  },
+  {
+    "id": "inca-empire",
+    "label": "Империя инков"
+  },
+  {
+    "id": "kanem-bornu",
+    "label": "Империя Канем-Борну"
+  },
+  {
+    "id": "mali-empire",
+    "label": "Империя Мали"
+  },
+  {
+    "id": "maratha-empire",
+    "label": "Империя маратхов"
+  },
+  {
+    "id": "maurya-empire",
+    "label": "Империя Маурьев"
+  },
+  {
+    "id": "songhai-empire",
+    "label": "Империя Сонгай"
+  },
+  {
+    "id": "india",
+    "label": "Индия"
+  },
+  {
+    "id": "indonesia",
+    "label": "Индонезия"
+  },
+  {
+    "id": "jordan",
+    "label": "Иордания"
+  },
+  {
+    "id": "iraq",
+    "label": "Ирак"
+  },
+  {
+    "id": "iran",
+    "label": "Иран"
+  },
+  {
+    "id": "spain",
+    "label": "Испания"
+  },
+  {
+    "id": "italy",
+    "label": "Италия"
+  },
+  {
+    "id": "cambodia",
+    "label": "Камбоджа"
+  },
+  {
+    "id": "carthage",
+    "label": "Карфаген"
+  },
+  {
+    "id": "kenya",
+    "label": "Кения"
+  },
+  {
+    "id": "kievan-rus",
+    "label": "Киевская Русь"
+  },
+  {
+    "id": "china",
+    "label": "Китай"
+  },
+  {
+    "id": "kingdom-of-benin",
+    "label": "Королевство Бенин"
+  },
+  {
+    "id": "kingdom-of-dahomey",
+    "label": "Королевство Дагомея"
+  },
+  {
+    "id": "zulu-kingdom",
+    "label": "Королевство зулусов"
+  },
+  {
+    "id": "kingdom-of-kongo",
+    "label": "Королевство Конго"
+  },
+  {
+    "id": "cuba",
+    "label": "Куба"
+  },
+  {
+    "id": "nazca-culture",
+    "label": "Культура Наска"
+  },
+  {
+    "id": "khmer-empire",
+    "label": "Кхмерская империя"
+  },
+  {
+    "id": "macedon",
+    "label": "Македония"
+  },
+  {
+    "id": "malaysia",
+    "label": "Малайзия"
+  },
+  {
+    "id": "mamluk-sultanate",
+    "label": "Мамлюкский султанат"
+  },
+  {
+    "id": "morocco",
+    "label": "Марокко"
+  },
+  {
+    "id": "mexico",
+    "label": "Мексика"
+  },
+  {
+    "id": "mongolia",
+    "label": "Монголия"
+  },
+  {
+    "id": "namibia",
+    "label": "Намибия"
+  },
+  {
+    "id": "nigeria",
+    "label": "Нигерия"
+  },
+  {
+    "id": "netherlands",
+    "label": "Нидерланды"
+  },
+  {
+    "id": "nicaragua",
+    "label": "Никарагуа"
+  },
+  {
+    "id": "new-zealand",
+    "label": "Новая Зеландия"
+  },
+  {
+    "id": "umayyad-caliphate",
+    "label": "Омейядский халифат"
+  },
+  {
+    "id": "ottoman-empire",
+    "label": "Османская империя"
+  },
+  {
+    "id": "pakistan",
+    "label": "Пакистан"
+  },
+  {
+    "id": "palestine",
+    "label": "Палестина"
+  },
+  {
+    "id": "papal-states",
+    "label": "Папская область"
+  },
+  {
+    "id": "paraguay",
+    "label": "Парагвай"
+  },
+  {
+    "id": "peru",
+    "label": "Перу"
+  },
+  {
+    "id": "poland",
+    "label": "Польша"
+  },
+  {
+    "id": "portugal",
+    "label": "Португалия"
+  },
+  {
+    "id": "prussia",
+    "label": "Пруссия"
+  },
+  {
+    "id": "roman-empire",
+    "label": "Римская империя"
+  },
+  {
+    "id": "russia",
+    "label": "Россия"
+  },
+  {
+    "id": "rwanda",
+    "label": "Руанда"
+  },
+  {
+    "id": "saudi-arabia",
+    "label": "Саудовская Аравия"
+  },
+  {
+    "id": "holy-roman-empire",
+    "label": "Священная Римская империя"
+  },
+  {
+    "id": "north-korea",
+    "label": "Северная Корея"
+  },
+  {
+    "id": "seljuk-empire",
+    "label": "Сельджукская держава"
+  },
+  {
+    "id": "senegal",
+    "label": "Сенегал"
+  },
+  {
+    "id": "sikh-empire",
+    "label": "Сикхская империя"
+  },
+  {
+    "id": "syria",
+    "label": "Сирия"
+  },
+  {
+    "id": "soviet-union",
+    "label": "СССР"
+  },
+  {
+    "id": "sudan",
+    "label": "Судан"
+  },
+  {
+    "id": "usa",
+    "label": "США"
+  },
+  {
+    "id": "tibet",
+    "label": "Тибет"
+  },
+  {
+    "id": "troy",
+    "label": "Троя"
+  },
+  {
+    "id": "ukraine",
+    "label": "Украина"
+  },
+  {
+    "id": "uruguay",
+    "label": "Уругвай"
+  },
+  {
+    "id": "philippines",
+    "label": "Филиппины"
+  },
+  {
+    "id": "phoenicia",
+    "label": "Финикия"
+  },
+  {
+    "id": "finland",
+    "label": "Финляндия"
+  },
+  {
+    "id": "francia",
+    "label": "Франкское государство"
+  },
+  {
+    "id": "france",
+    "label": "Франция"
+  },
+  {
+    "id": "sokoto-caliphate",
+    "label": "Халифат Сокото"
+  },
+  {
+    "id": "hittite-empire",
+    "label": "Хеттское царство"
+  },
+  {
+    "id": "aksum",
+    "label": "Царство Аксум"
+  },
+  {
+    "id": "kush",
+    "label": "Царство Куш"
+  },
+  {
+    "id": "maya-civilization",
+    "label": "Цивилизация майя"
+  },
+  {
+    "id": "olmec-civilization",
+    "label": "Цивилизация ольмеков"
+  },
+  {
+    "id": "czechoslovakia",
+    "label": "Чехословакия"
+  },
+  {
+    "id": "chile",
+    "label": "Чили"
+  },
+  {
+    "id": "switzerland",
+    "label": "Швейцария"
+  },
+  {
+    "id": "sweden",
+    "label": "Швеция"
+  },
+  {
+    "id": "srivijaya",
+    "label": "Шривиджая"
+  },
+  {
+    "id": "sumer",
+    "label": "Шумер"
+  },
+  {
+    "id": "etruria",
+    "label": "Этрурия"
+  },
+  {
+    "id": "ethiopia",
+    "label": "Эфиопия"
+  },
+  {
+    "id": "south-korea",
+    "label": "Южная Корея"
+  },
+  {
+    "id": "south-africa",
+    "label": "Южно-Африканская Республика"
+  },
+  {
+    "id": "japan",
+    "label": "Япония"
+  }
+]

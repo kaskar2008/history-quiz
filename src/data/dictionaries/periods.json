@@ -1,0 +1,13 @@
+[
+  { "id": "prehistory", "label": "Доистория" },
+  { "id": "ancient", "label": "Древний мир" },
+  { "id": "middle-ages", "label": "Средневековье" },
+  { "id": "early-modern", "label": "Раннее Новое время" },
+  { "id": "18-century", "label": "XVIII век" },
+  { "id": "19-century", "label": "XIX век" },
+  { "id": "world-war-1", "label": "Первая мировая война" },
+  { "id": "interwar", "label": "Межвоенный период" },
+  { "id": "world-war-2", "label": "Вторая мировая война" },
+  { "id": "cold-war", "label": "Холодная война" },
+  { "id": "contemporary", "label": "Новейшее время" }
+]

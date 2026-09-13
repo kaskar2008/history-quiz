@@ -1,0 +1,1209 @@
+[
+  {
+    "id": "h03-001",
+    "level": 3,
+    "difficulty": 10,
+    "question": "Какой народ Южной Месопотамии первым создал клинописную систему письма?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Ассирийцы"
+      },
+      {
+        "id": "b",
+        "text": "Шумеры"
+      },
+      {
+        "id": "c",
+        "text": "Хетты"
+      },
+      {
+        "id": "d",
+        "text": "Финикийцы"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Шумеры изобрели клинопись — одну из древнейших систем письма, продавливая знаки на глиняных табличках.",
+    "countries": [
+      "sumer"
+    ],
+    "region": "middle-east",
+    "period": "ancient",
+    "topics": [
+      "culture",
+      "technology"
+    ],
+    "yearFrom": -3400,
+    "yearTo": -3000
+  },
+  {
+    "id": "h03-002",
+    "level": 3,
+    "difficulty": 20,
+    "question": "Герой одного из древнейших литературных произведений, «Эпоса о Гильгамеше», был царём города...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Ур"
+      },
+      {
+        "id": "b",
+        "text": "Ниппур"
+      },
+      {
+        "id": "c",
+        "text": "Урук"
+      },
+      {
+        "id": "d",
+        "text": "Лагаш"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Гильгамеш, герой шумерского эпоса, изображается как правитель города-государства Урук.",
+    "countries": [
+      "sumer"
+    ],
+    "region": "middle-east",
+    "period": "ancient",
+    "topics": [
+      "culture"
+    ],
+    "yearFrom": -2700,
+    "yearTo": -2500
+  },
+  {
+    "id": "h03-003",
+    "level": 3,
+    "difficulty": 30,
+    "question": "Столицей могущественной Новоассирийской державы был город...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Вавилон"
+      },
+      {
+        "id": "b",
+        "text": "Ниневия"
+      },
+      {
+        "id": "c",
+        "text": "Персеполь"
+      },
+      {
+        "id": "d",
+        "text": "Мемфис"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ниневия была столицей Новоассирийской империи, одной из крупнейших держав Древнего Ближнего Востока.",
+    "countries": [
+      "assyria"
+    ],
+    "region": "middle-east",
+    "period": "ancient",
+    "topics": [
+      "politics",
+      "war"
+    ],
+    "yearFrom": -900,
+    "yearTo": -612
+  },
+  {
+    "id": "h03-004",
+    "level": 3,
+    "difficulty": 40,
+    "question": "С правлением какого вавилонского царя традиция связывает строительство висячих садов?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Хаммурапи"
+      },
+      {
+        "id": "b",
+        "text": "Кира Великого"
+      },
+      {
+        "id": "c",
+        "text": "Навуходоносора II"
+      },
+      {
+        "id": "d",
+        "text": "Дария I"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "По преданию, висячие сады Вавилона были построены при царе Навуходоносоре II.",
+    "countries": [
+      "babylonia"
+    ],
+    "region": "middle-east",
+    "period": "ancient",
+    "topics": [
+      "culture",
+      "art"
+    ],
+    "yearFrom": -605,
+    "yearTo": -562
+  },
+  {
+    "id": "h03-005",
+    "level": 3,
+    "difficulty": 50,
+    "question": "Кто основал огромную Персидскую державу Ахеменидов в VI веке до н.э.?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Дарий I"
+      },
+      {
+        "id": "b",
+        "text": "Ксеркс"
+      },
+      {
+        "id": "c",
+        "text": "Кир Великий"
+      },
+      {
+        "id": "d",
+        "text": "Камбиз II"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Кир Великий объединил Персию и Мидию и заложил основу обширной державы Ахеменидов.",
+    "countries": [
+      "achaemenid-empire"
+    ],
+    "region": "middle-east",
+    "period": "ancient",
+    "topics": [
+      "politics",
+      "war"
+    ],
+    "yearFrom": -559,
+    "yearTo": -530
+  },
+  {
+    "id": "h03-006",
+    "level": 3,
+    "difficulty": 60,
+    "question": "В битве при Марафоне в 490 году до н.э. афиняне остановили вторжение...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Спартанцев"
+      },
+      {
+        "id": "b",
+        "text": "Персов"
+      },
+      {
+        "id": "c",
+        "text": "Македонцев"
+      },
+      {
+        "id": "d",
+        "text": "Карфагенян"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "При Марафоне афинское войско разгромило высадившуюся персидскую армию, сорвав первое вторжение персов.",
+    "countries": [
+      "greece",
+      "achaemenid-empire"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "war"
+    ],
+    "yearFrom": -490,
+    "yearTo": -490
+  },
+  {
+    "id": "h03-007",
+    "level": 3,
+    "difficulty": 70,
+    "question": "Царь Леонид с отрядом из 300 спартанцев прославился обороной ущелья...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Фермопилы"
+      },
+      {
+        "id": "b",
+        "text": "Саламин"
+      },
+      {
+        "id": "c",
+        "text": "Платеи"
+      },
+      {
+        "id": "d",
+        "text": "Микале"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "В 480 году до н.э. Леонид и его воины несколько дней сдерживали персидскую армию в Фермопильском ущелье.",
+    "countries": [
+      "greece"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "war"
+    ],
+    "yearFrom": -480,
+    "yearTo": -480
+  },
+  {
+    "id": "h03-008",
+    "level": 3,
+    "difficulty": 80,
+    "question": "Пелопоннесская война 431-404 годов до н.э. велась между Спартой и...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Персией"
+      },
+      {
+        "id": "b",
+        "text": "Афинами"
+      },
+      {
+        "id": "c",
+        "text": "Фивами"
+      },
+      {
+        "id": "d",
+        "text": "Коринфом"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Длительная война между Афинским морским союзом и Спартой закончилась поражением Афин.",
+    "countries": [
+      "greece"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "war",
+      "politics"
+    ],
+    "yearFrom": -431,
+    "yearTo": -404
+  },
+  {
+    "id": "h03-009",
+    "level": 3,
+    "difficulty": 90,
+    "question": "Афинский философ, приговорённый к смерти и выпивший чашу цикуты в 399 году до н.э., — это...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Платон"
+      },
+      {
+        "id": "b",
+        "text": "Сократ"
+      },
+      {
+        "id": "c",
+        "text": "Аристотель"
+      },
+      {
+        "id": "d",
+        "text": "Пифагор"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Сократ был обвинён в развращении молодёжи и казнён по приговору афинского суда.",
+    "countries": [
+      "greece"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "philosophy"
+    ],
+    "yearFrom": -399,
+    "yearTo": -399
+  },
+  {
+    "id": "h03-010",
+    "level": 3,
+    "difficulty": 100,
+    "question": "Ученик Сократа, основавший в Афинах философскую школу «Академия», — это...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Платон"
+      },
+      {
+        "id": "b",
+        "text": "Демокрит"
+      },
+      {
+        "id": "c",
+        "text": "Эпикур"
+      },
+      {
+        "id": "d",
+        "text": "Зенон"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Платон основал Академию в Афинах около 387 года до н.э., где развивал учение своего учителя Сократа.",
+    "countries": [
+      "greece"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "philosophy"
+    ],
+    "yearFrom": -387,
+    "yearTo": -387
+  },
+  {
+    "id": "h03-011",
+    "level": 3,
+    "difficulty": 110,
+    "question": "Философ, ставший наставником юного Александра Македонского, — это...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Аристотель"
+      },
+      {
+        "id": "b",
+        "text": "Диоген"
+      },
+      {
+        "id": "c",
+        "text": "Гераклит"
+      },
+      {
+        "id": "d",
+        "text": "Фалес"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Царь Филипп II Македонский пригласил Аристотеля воспитывать своего сына Александра.",
+    "countries": [
+      "macedon",
+      "greece"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "philosophy"
+    ],
+    "yearFrom": -343,
+    "yearTo": -336
+  },
+  {
+    "id": "h03-012",
+    "level": 3,
+    "difficulty": 120,
+    "question": "Один из крупнейших центров науки и знаний античности, Александрийская библиотека, находилась в...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Афинах"
+      },
+      {
+        "id": "b",
+        "text": "Риме"
+      },
+      {
+        "id": "c",
+        "text": "Александрии"
+      },
+      {
+        "id": "d",
+        "text": "Пергаме"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Александрийская библиотека в эллинистическом Египте собирала свитки со всего античного мира.",
+    "countries": [
+      "egypt"
+    ],
+    "region": "africa",
+    "period": "ancient",
+    "topics": [
+      "science",
+      "culture"
+    ],
+    "yearFrom": -295,
+    "yearTo": -280
+  },
+  {
+    "id": "h03-013",
+    "level": 3,
+    "difficulty": 130,
+    "question": "Полководец Карфагена, перешедший через Альпы со слонами во время Второй Пунической войны, — это...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Гамилькар Барка"
+      },
+      {
+        "id": "b",
+        "text": "Ганнибал"
+      },
+      {
+        "id": "c",
+        "text": "Гасдрубал"
+      },
+      {
+        "id": "d",
+        "text": "Магон"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ганнибал перевёл войско через Альпы в 218 году до н.э., нанеся Риму несколько тяжёлых поражений.",
+    "countries": [
+      "carthage"
+    ],
+    "region": "africa",
+    "period": "ancient",
+    "topics": [
+      "war"
+    ],
+    "yearFrom": -218,
+    "yearTo": -218
+  },
+  {
+    "id": "h03-014",
+    "level": 3,
+    "difficulty": 140,
+    "question": "Восстание рабов и гладиаторов 73-71 годов до н.э. против Рима возглавил...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Красс"
+      },
+      {
+        "id": "b",
+        "text": "Спартак"
+      },
+      {
+        "id": "c",
+        "text": "Верцингеторикс"
+      },
+      {
+        "id": "d",
+        "text": "Югурта"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Гладиатор Спартак возглавил крупнейшее восстание рабов в истории Рима.",
+    "countries": [
+      "roman-empire"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "war",
+      "society"
+    ],
+    "yearFrom": -73,
+    "yearTo": -71
+  },
+  {
+    "id": "h03-015",
+    "level": 3,
+    "difficulty": 150,
+    "question": "Один из древнейших сводов римского права, выставленный на форуме около 451 года до н.э., назывался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Кодекс Юстиниана"
+      },
+      {
+        "id": "b",
+        "text": "Законы Двенадцати таблиц"
+      },
+      {
+        "id": "c",
+        "text": "Эдикт претора"
+      },
+      {
+        "id": "d",
+        "text": "Дигесты"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Законы Двенадцати таблиц стали первой записанной системой законов Римской республики.",
+    "countries": [
+      "roman-empire"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": -451,
+    "yearTo": -450
+  },
+  {
+    "id": "h03-016",
+    "level": 3,
+    "difficulty": 160,
+    "question": "Приняв в 27 году до н.э. титул Августа, Октавиан стал первым...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Консулом Рима"
+      },
+      {
+        "id": "b",
+        "text": "Императором Рима"
+      },
+      {
+        "id": "c",
+        "text": "Диктатором Рима"
+      },
+      {
+        "id": "d",
+        "text": "Понтификом Рима"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Октавиан Август стал первым римским императором, положив начало долгому периоду «римского мира».",
+    "countries": [
+      "roman-empire"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": -27,
+    "yearTo": -27
+  },
+  {
+    "id": "h03-017",
+    "level": 3,
+    "difficulty": 170,
+    "question": "Знаменитый амфитеатр для гладиаторских боёв, открытый в Риме около 80 года н.э., известен как...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Пантеон"
+      },
+      {
+        "id": "b",
+        "text": "Колизей"
+      },
+      {
+        "id": "c",
+        "text": "Форум"
+      },
+      {
+        "id": "d",
+        "text": "Циркус Максимус"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Колизей вмещал десятки тысяч зрителей и использовался для гладиаторских боёв и других зрелищ.",
+    "countries": [
+      "roman-empire"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "culture",
+      "society"
+    ],
+    "yearFrom": 70,
+    "yearTo": 80
+  },
+  {
+    "id": "h03-018",
+    "level": 3,
+    "difficulty": 180,
+    "question": "Первый император объединённого Китая, при котором создали знаменитую терракотовую армию, — это...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Цинь Шихуанди"
+      },
+      {
+        "id": "b",
+        "text": "У-ди"
+      },
+      {
+        "id": "c",
+        "text": "Лю Бан"
+      },
+      {
+        "id": "d",
+        "text": "Конфуций"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Цинь Шихуанди объединил Китай в 221 году до н.э. и приказал создать терракотовую армию для своей гробницы.",
+    "countries": [
+      "china"
+    ],
+    "region": "asia",
+    "period": "ancient",
+    "topics": [
+      "politics",
+      "art"
+    ],
+    "yearFrom": -221,
+    "yearTo": -210
+  },
+  {
+    "id": "h03-019",
+    "level": 3,
+    "difficulty": 190,
+    "question": "Сухопутные торговые маршруты, связавшие Китай со Средиземноморьем при династии Хань, получили название...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Великий чайный путь"
+      },
+      {
+        "id": "b",
+        "text": "Великий шёлковый путь"
+      },
+      {
+        "id": "c",
+        "text": "Путь пряностей"
+      },
+      {
+        "id": "d",
+        "text": "Янтарный путь"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Великий шёлковый путь открылся при династии Хань и связал Китай с Центральной Азией и Средиземноморьем.",
+    "countries": [
+      "china"
+    ],
+    "region": "asia",
+    "period": "ancient",
+    "topics": [
+      "trade",
+      "exploration"
+    ],
+    "yearFrom": -130,
+    "yearTo": -100
+  },
+  {
+    "id": "h03-020",
+    "level": 3,
+    "difficulty": 200,
+    "question": "Правитель империи Маурьев, принявший буддизм и распространивший его по Индии, — это...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Чандрагупта Маурья"
+      },
+      {
+        "id": "b",
+        "text": "Ашока"
+      },
+      {
+        "id": "c",
+        "text": "Канишка"
+      },
+      {
+        "id": "d",
+        "text": "Самудрагупта"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "После кровопролитной войны с Калингой царь Ашока обратился к буддизму и распространял его учение по всей империи.",
+    "countries": [
+      "maurya-empire"
+    ],
+    "region": "asia",
+    "period": "ancient",
+    "topics": [
+      "religion",
+      "politics"
+    ],
+    "yearFrom": -268,
+    "yearTo": -232
+  },
+  {
+    "id": "h03-021",
+    "level": 3,
+    "difficulty": 210,
+    "question": "«Золотым веком» индийской науки и математики, когда была развита концепция нуля, считают эпоху империи...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Гуптов"
+      },
+      {
+        "id": "b",
+        "text": "Моголов"
+      },
+      {
+        "id": "c",
+        "text": "Маурьев"
+      },
+      {
+        "id": "d",
+        "text": "Кушанов"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "При империи Гуптов индийские учёные, включая Ариабхату, развили математику и астрономию.",
+    "countries": [
+      "gupta-empire"
+    ],
+    "region": "asia",
+    "period": "ancient",
+    "topics": [
+      "science",
+      "culture"
+    ],
+    "yearFrom": 320,
+    "yearTo": 550
+  },
+  {
+    "id": "h03-022",
+    "level": 3,
+    "difficulty": 220,
+    "question": "Африканское царство к югу от Египта, строившее собственные пирамиды в Мероэ, называлось...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Аксум"
+      },
+      {
+        "id": "b",
+        "text": "Куш"
+      },
+      {
+        "id": "c",
+        "text": "Гана"
+      },
+      {
+        "id": "d",
+        "text": "Зимбабве"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Царство Куш в Нубии строило собственные пирамиды и одно время даже правило Египтом.",
+    "countries": [
+      "kush"
+    ],
+    "region": "africa",
+    "period": "ancient",
+    "topics": [
+      "politics",
+      "culture"
+    ],
+    "yearFrom": -800,
+    "yearTo": 350
+  },
+  {
+    "id": "h03-023",
+    "level": 3,
+    "difficulty": 230,
+    "question": "Мореходный народ Восточного Средиземноморья, чей алфавит лёг в основу греческого и латинского письма, — это...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Хетты"
+      },
+      {
+        "id": "b",
+        "text": "Филистимляне"
+      },
+      {
+        "id": "c",
+        "text": "Финикийцы"
+      },
+      {
+        "id": "d",
+        "text": "Лидийцы"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Финикийцы распространили свой алфавит по всему Средиземноморью через торговлю и мореплавание.",
+    "countries": [
+      "phoenicia"
+    ],
+    "region": "middle-east",
+    "period": "ancient",
+    "topics": [
+      "culture",
+      "trade"
+    ],
+    "yearFrom": -1200,
+    "yearTo": -800
+  },
+  {
+    "id": "h03-024",
+    "level": 3,
+    "difficulty": 240,
+    "question": "Город-государство в Северной Африке, основанный финикийцами и ставший главным соперником Рима, — это...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Александрия"
+      },
+      {
+        "id": "b",
+        "text": "Карфаген"
+      },
+      {
+        "id": "c",
+        "text": "Кирена"
+      },
+      {
+        "id": "d",
+        "text": "Утика"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Карфаген, основанный финикийскими переселенцами около 814 года до н.э., долго соперничал с Римом за господство в Средиземноморье.",
+    "countries": [
+      "carthage"
+    ],
+    "region": "africa",
+    "period": "ancient",
+    "topics": [
+      "politics",
+      "trade"
+    ],
+    "yearFrom": -814,
+    "yearTo": -814
+  },
+  {
+    "id": "h03-025",
+    "level": 3,
+    "difficulty": 250,
+    "question": "Древнее торговое царство в Восточной Африке, одним из первых в мире официально принявшее христианство, — это...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Аксум"
+      },
+      {
+        "id": "b",
+        "text": "Мали"
+      },
+      {
+        "id": "c",
+        "text": "Сонгай"
+      },
+      {
+        "id": "d",
+        "text": "Великий Зимбабве"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Царство Аксум на территории современной Эфиопии вело морскую торговлю и приняло христианство в IV веке.",
+    "countries": [
+      "aksum"
+    ],
+    "region": "africa",
+    "period": "ancient",
+    "topics": [
+      "trade",
+      "religion"
+    ],
+    "yearFrom": 100,
+    "yearTo": 400
+  },
+  {
+    "id": "h03-026",
+    "level": 3,
+    "difficulty": 260,
+    "question": "Древнейшую крупную цивилизацию Мезоамерики, известную гигантскими каменными головами, называют...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Ольмеки"
+      },
+      {
+        "id": "b",
+        "text": "Тольтеки"
+      },
+      {
+        "id": "c",
+        "text": "Сапотеки"
+      },
+      {
+        "id": "d",
+        "text": "Миштеки"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ольмекскую культуру считают «материнской цивилизацией» Мезоамерики; она оставила гигантские каменные головы.",
+    "countries": [
+      "olmec-civilization"
+    ],
+    "region": "north-america",
+    "period": "ancient",
+    "topics": [
+      "culture",
+      "art"
+    ],
+    "yearFrom": -1200,
+    "yearTo": -400
+  },
+  {
+    "id": "h03-027",
+    "level": 3,
+    "difficulty": 270,
+    "question": "Цивилизация Мезоамерики, создавшая точный календарь и одну из немногих полноценных систем письма Америки, — это...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Инки"
+      },
+      {
+        "id": "b",
+        "text": "Майя"
+      },
+      {
+        "id": "c",
+        "text": "Ацтеки"
+      },
+      {
+        "id": "d",
+        "text": "Чибча"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Цивилизация майя разработала иероглифическую письменность и сложный календарь ещё в I тысячелетии до н.э.",
+    "countries": [
+      "maya-civilization"
+    ],
+    "region": "north-america",
+    "period": "ancient",
+    "topics": [
+      "science",
+      "culture"
+    ],
+    "yearFrom": -300,
+    "yearTo": 250
+  },
+  {
+    "id": "h03-028",
+    "level": 3,
+    "difficulty": 280,
+    "question": "Легендарная война за город в Малой Азии, описанная Гомером в «Илиаде», известна как...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Троянская война"
+      },
+      {
+        "id": "b",
+        "text": "Митридатовы войны"
+      },
+      {
+        "id": "c",
+        "text": "Лидийская война"
+      },
+      {
+        "id": "d",
+        "text": "Персидские войны"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "«Илиада» Гомера описывает легендарную осаду Трои греческими героями.",
+    "countries": [
+      "troy"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "culture"
+    ],
+    "yearFrom": -1200,
+    "yearTo": -1180
+  },
+  {
+    "id": "h03-029",
+    "level": 3,
+    "difficulty": 290,
+    "question": "Цивилизация Центральной Италии, оказавшая большое влияние на культуру и религию ранних римских царей, — это...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Этруски"
+      },
+      {
+        "id": "b",
+        "text": "Самниты"
+      },
+      {
+        "id": "c",
+        "text": "Сабиняне"
+      },
+      {
+        "id": "d",
+        "text": "Умбры"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Этруски передали ранним римлянам многие обычаи, инженерные приёмы и религиозные практики.",
+    "countries": [
+      "etruria"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "culture"
+    ],
+    "yearFrom": -800,
+    "yearTo": -500
+  },
+  {
+    "id": "h03-030",
+    "level": 3,
+    "difficulty": 300,
+    "question": "Персидский пророк, чьё учение о борьбе добра и зла легло в основу зороастризма, — это...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Мани"
+      },
+      {
+        "id": "b",
+        "text": "Заратустра"
+      },
+      {
+        "id": "c",
+        "text": "Мазда"
+      },
+      {
+        "id": "d",
+        "text": "Митра"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Заратустра считается основателем зороастризма — одной из древнейших религий, повлиявшей на культуру Персии.",
+    "countries": [
+      "achaemenid-empire"
+    ],
+    "region": "middle-east",
+    "period": "ancient",
+    "topics": [
+      "religion",
+      "philosophy"
+    ],
+    "yearFrom": -1000,
+    "yearTo": -600
+  },
+  {
+    "id": "h03-031",
+    "level": 3,
+    "difficulty": 310,
+    "question": "Как называется система письма Древнего Египта, использовавшая рисуночные знаки на храмах и гробницах?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Клинопись"
+      },
+      {
+        "id": "b",
+        "text": "Иероглифика"
+      },
+      {
+        "id": "c",
+        "text": "Руническое письмо"
+      },
+      {
+        "id": "d",
+        "text": "Линейное письмо Б"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Египетские иероглифы использовались более трёх тысяч лет для религиозных и монументальных надписей.",
+    "countries": [
+      "egypt"
+    ],
+    "region": "africa",
+    "period": "ancient",
+    "topics": [
+      "culture",
+      "science"
+    ],
+    "yearFrom": -3200,
+    "yearTo": -3000
+  },
+  {
+    "id": "h03-032",
+    "level": 3,
+    "difficulty": 320,
+    "question": "Гигантские рисунки на плато в пустыне Перу, различимые целиком только с высоты, оставила культура...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Инков"
+      },
+      {
+        "id": "b",
+        "text": "Наска"
+      },
+      {
+        "id": "c",
+        "text": "Мочика"
+      },
+      {
+        "id": "d",
+        "text": "Чиму"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Культура Наска создала на плато гигантские геоглифы с изображениями животных и геометрических фигур.",
+    "countries": [
+      "nazca-culture"
+    ],
+    "region": "south-america",
+    "period": "ancient",
+    "topics": [
+      "culture",
+      "science"
+    ],
+    "yearFrom": -500,
+    "yearTo": 500
+  }
+]

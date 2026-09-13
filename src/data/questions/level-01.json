@@ -1,0 +1,1218 @@
+[
+  {
+    "id": "h01-001",
+    "level": 1,
+    "difficulty": 10,
+    "question": "Для чего в Древнем Египте строили пирамиды?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Как гробницы фараонов"
+      },
+      {
+        "id": "b",
+        "text": "Как зернохранилища"
+      },
+      {
+        "id": "c",
+        "text": "Как крепости от набегов"
+      },
+      {
+        "id": "d",
+        "text": "Как маяки для кораблей"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Пирамиды строились как гробницы фараонов, чтобы обеспечить им переход в загробную жизнь.",
+    "countries": [
+      "egypt"
+    ],
+    "region": "africa",
+    "period": "ancient",
+    "topics": [
+      "religion",
+      "culture"
+    ],
+    "yearFrom": -2600,
+    "yearTo": -2500
+  },
+  {
+    "id": "h01-002",
+    "level": 1,
+    "difficulty": 20,
+    "question": "Зачем в Древнем Китае строили Великую стену?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Для орошения полей"
+      },
+      {
+        "id": "b",
+        "text": "Для защиты от кочевников"
+      },
+      {
+        "id": "c",
+        "text": "Как торговую дорогу"
+      },
+      {
+        "id": "d",
+        "text": "Как границу между провинциями"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Стена защищала северные границы Китая от набегов кочевых народов степи.",
+    "countries": [
+      "china"
+    ],
+    "region": "asia",
+    "period": "ancient",
+    "topics": [
+      "war",
+      "politics"
+    ],
+    "yearFrom": -221,
+    "yearTo": -206
+  },
+  {
+    "id": "h01-003",
+    "level": 1,
+    "difficulty": 30,
+    "question": "В каком году экспедиция Колумба впервые достигла берегов Америки?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "1453"
+      },
+      {
+        "id": "b",
+        "text": "1521"
+      },
+      {
+        "id": "c",
+        "text": "1492"
+      },
+      {
+        "id": "d",
+        "text": "1600"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "12 октября 1492 года корабли Колумба достигли острова в Карибском море, открыв для Европы Новый Свет.",
+    "countries": [
+      "spain"
+    ],
+    "region": "north-america",
+    "period": "early-modern",
+    "topics": [
+      "exploration",
+      "discovery"
+    ],
+    "yearFrom": 1492,
+    "yearTo": 1492
+  },
+  {
+    "id": "h01-004",
+    "level": 1,
+    "difficulty": 40,
+    "question": "В каком году закончилась Вторая мировая война?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "1943"
+      },
+      {
+        "id": "b",
+        "text": "1945"
+      },
+      {
+        "id": "c",
+        "text": "1947"
+      },
+      {
+        "id": "d",
+        "text": "1939"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Война завершилась в 1945 году капитуляцией Германии в мае и Японии в сентябре.",
+    "countries": [
+      "germany",
+      "japan"
+    ],
+    "region": "europe",
+    "period": "world-war-2",
+    "topics": [
+      "war"
+    ],
+    "yearFrom": 1945,
+    "yearTo": 1945
+  },
+  {
+    "id": "h01-005",
+    "level": 1,
+    "difficulty": 50,
+    "question": "Кто был убит группой заговорщиков-сенаторов в мартовские иды 44 года до н.э.?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Октавиан Август"
+      },
+      {
+        "id": "b",
+        "text": "Юлий Цезарь"
+      },
+      {
+        "id": "c",
+        "text": "Марк Антоний"
+      },
+      {
+        "id": "d",
+        "text": "Помпей Великий"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Юлий Цезарь был убит сенаторами-заговорщиками, опасавшимися его единоличной власти.",
+    "countries": [
+      "roman-empire"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": -44,
+    "yearTo": -44
+  },
+  {
+    "id": "h01-006",
+    "level": 1,
+    "difficulty": 60,
+    "question": "В каком году пала Берлинская стена?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "1985"
+      },
+      {
+        "id": "b",
+        "text": "1991"
+      },
+      {
+        "id": "c",
+        "text": "1989"
+      },
+      {
+        "id": "d",
+        "text": "1961"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Берлинская стена пала в ноябре 1989 года, что стало символом конца холодной войны.",
+    "countries": [
+      "germany"
+    ],
+    "region": "europe",
+    "period": "cold-war",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1989,
+    "yearTo": 1989
+  },
+  {
+    "id": "h01-007",
+    "level": 1,
+    "difficulty": 70,
+    "question": "Кто стал первым человеком, побывавшим в космосе?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Нил Армстронг"
+      },
+      {
+        "id": "b",
+        "text": "Юрий Гагарин"
+      },
+      {
+        "id": "c",
+        "text": "Валентина Терешкова"
+      },
+      {
+        "id": "d",
+        "text": "Алексей Леонов"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Юрий Гагарин совершил первый полёт человека в космос 12 апреля 1961 года.",
+    "countries": [
+      "soviet-union"
+    ],
+    "region": "europe",
+    "period": "cold-war",
+    "topics": [
+      "science",
+      "technology"
+    ],
+    "yearFrom": 1961,
+    "yearTo": 1961
+  },
+  {
+    "id": "h01-008",
+    "level": 1,
+    "difficulty": 80,
+    "question": "Кто первым из людей ступил на поверхность Луны?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Юрий Гагарин"
+      },
+      {
+        "id": "b",
+        "text": "Базз Олдрин"
+      },
+      {
+        "id": "c",
+        "text": "Нил Армстронг"
+      },
+      {
+        "id": "d",
+        "text": "Джон Гленн"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Нил Армстронг стал первым человеком, ступившим на Луну, в июле 1969 года.",
+    "countries": [
+      "usa"
+    ],
+    "region": "north-america",
+    "period": "cold-war",
+    "topics": [
+      "science",
+      "technology"
+    ],
+    "yearFrom": 1969,
+    "yearTo": 1969
+  },
+  {
+    "id": "h01-009",
+    "level": 1,
+    "difficulty": 90,
+    "question": "Взятие какой крепости-тюрьмы в 1789 году считается началом Французской революции?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Тауэр"
+      },
+      {
+        "id": "b",
+        "text": "Бастилия"
+      },
+      {
+        "id": "c",
+        "text": "Лувр"
+      },
+      {
+        "id": "d",
+        "text": "Версаль"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "14 июля 1789 года парижане штурмом взяли крепость Бастилию, символ королевской власти.",
+    "countries": [
+      "france"
+    ],
+    "region": "europe",
+    "period": "18-century",
+    "topics": [
+      "revolution",
+      "politics"
+    ],
+    "yearFrom": 1789,
+    "yearTo": 1789
+  },
+  {
+    "id": "h01-010",
+    "level": 1,
+    "difficulty": 100,
+    "question": "Кто объединил монгольские племена и основал Монгольскую империю?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Хубилай-хан"
+      },
+      {
+        "id": "b",
+        "text": "Батый"
+      },
+      {
+        "id": "c",
+        "text": "Тамерлан"
+      },
+      {
+        "id": "d",
+        "text": "Чингисхан"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Чингисхан объединил монгольские племена и создал крупнейшую в истории сухопутную империю.",
+    "countries": [
+      "mongolia"
+    ],
+    "region": "asia",
+    "period": "middle-ages",
+    "topics": [
+      "war",
+      "politics"
+    ],
+    "yearFrom": 1206,
+    "yearTo": 1227
+  },
+  {
+    "id": "h01-011",
+    "level": 1,
+    "difficulty": 110,
+    "question": "Чьи 95 тезисов 1517 года положили начало Реформации в Европе?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Жана Кальвина"
+      },
+      {
+        "id": "b",
+        "text": "Мартина Лютера"
+      },
+      {
+        "id": "c",
+        "text": "Эразма Роттердамского"
+      },
+      {
+        "id": "d",
+        "text": "Томаса Мора"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Мартин Лютер опубликовал 95 тезисов против злоупотреблений церкви, что положило начало Реформации.",
+    "countries": [
+      "holy-roman-empire"
+    ],
+    "region": "europe",
+    "period": "early-modern",
+    "topics": [
+      "religion"
+    ],
+    "yearFrom": 1517,
+    "yearTo": 1517
+  },
+  {
+    "id": "h01-012",
+    "level": 1,
+    "difficulty": 120,
+    "question": "В каком году затонул считавшийся непотопляемым лайнер «Титаник»?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "1898"
+      },
+      {
+        "id": "b",
+        "text": "1905"
+      },
+      {
+        "id": "c",
+        "text": "1920"
+      },
+      {
+        "id": "d",
+        "text": "1912"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "«Титаник» столкнулся с айсбергом и затонул в апреле 1912 года в Северной Атлантике.",
+    "countries": [
+      "uk"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "technology",
+      "society"
+    ],
+    "yearFrom": 1912,
+    "yearTo": 1912
+  },
+  {
+    "id": "h01-013",
+    "level": 1,
+    "difficulty": 130,
+    "question": "Какой японский город подвергся атомной бомбардировке 6 августа 1945 года?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Нагасаки"
+      },
+      {
+        "id": "b",
+        "text": "Токио"
+      },
+      {
+        "id": "c",
+        "text": "Хиросима"
+      },
+      {
+        "id": "d",
+        "text": "Осака"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "6 августа 1945 года США сбросили атомную бомбу на Хиросиму, а 9 августа — на Нагасаки.",
+    "countries": [
+      "japan"
+    ],
+    "region": "asia",
+    "period": "world-war-2",
+    "topics": [
+      "war",
+      "technology"
+    ],
+    "yearFrom": 1945,
+    "yearTo": 1945
+  },
+  {
+    "id": "h01-014",
+    "level": 1,
+    "difficulty": 140,
+    "question": "В каком году Наполеон Бонапарт короновался императором Франции?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "1799"
+      },
+      {
+        "id": "b",
+        "text": "1804"
+      },
+      {
+        "id": "c",
+        "text": "1812"
+      },
+      {
+        "id": "d",
+        "text": "1815"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "В 1804 году Наполеон провозгласил себя императором французов в соборе Нотр-Дам.",
+    "countries": [
+      "france"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "politics",
+      "war"
+    ],
+    "yearFrom": 1804,
+    "yearTo": 1804
+  },
+  {
+    "id": "h01-015",
+    "level": 1,
+    "difficulty": 150,
+    "question": "Обвал какой биржи в 1929 году положил начало Великой депрессии?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Лондонской"
+      },
+      {
+        "id": "b",
+        "text": "Токийской"
+      },
+      {
+        "id": "c",
+        "text": "Нью-Йоркской"
+      },
+      {
+        "id": "d",
+        "text": "Парижской"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Крах Нью-Йоркской фондовой биржи в октябре 1929 года запустил Великую депрессию.",
+    "countries": [
+      "usa"
+    ],
+    "region": "north-america",
+    "period": "interwar",
+    "topics": [
+      "economy"
+    ],
+    "yearFrom": 1929,
+    "yearTo": 1929
+  },
+  {
+    "id": "h01-016",
+    "level": 1,
+    "difficulty": 160,
+    "question": "В каком году Индия получила независимость от Великобритании?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "1919"
+      },
+      {
+        "id": "b",
+        "text": "1947"
+      },
+      {
+        "id": "c",
+        "text": "1962"
+      },
+      {
+        "id": "d",
+        "text": "1935"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Индия обрела независимость в августе 1947 года, разделившись на Индию и Пакистан.",
+    "countries": [
+      "india",
+      "uk"
+    ],
+    "region": "asia",
+    "period": "cold-war",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1947,
+    "yearTo": 1947
+  },
+  {
+    "id": "h01-017",
+    "level": 1,
+    "difficulty": 170,
+    "question": "Мореплаватель какой страны первым обогнул Африку и достиг Индии морем в 1498 году?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Испании"
+      },
+      {
+        "id": "b",
+        "text": "Голландии"
+      },
+      {
+        "id": "c",
+        "text": "Португалии"
+      },
+      {
+        "id": "d",
+        "text": "Англии"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Португалец Васко да Гама первым проложил морской путь из Европы в Индию вокруг Африки.",
+    "countries": [
+      "portugal"
+    ],
+    "region": "europe",
+    "period": "early-modern",
+    "topics": [
+      "exploration",
+      "trade"
+    ],
+    "yearFrom": 1497,
+    "yearTo": 1498
+  },
+  {
+    "id": "h01-018",
+    "level": 1,
+    "difficulty": 180,
+    "question": "Купец из какого города описал своё путешествие ко двору хана в книге «О разнообразии мира»?",
+    "details": "Марко Поло провёл при дворе монгольского хана Хубилая около 17 лет и позже продиктовал рассказ о своих странствиях.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Флоренции"
+      },
+      {
+        "id": "b",
+        "text": "Венеции"
+      },
+      {
+        "id": "c",
+        "text": "Генуи"
+      },
+      {
+        "id": "d",
+        "text": "Милана"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Венецианский купец Марко Поло описал своё путешествие по Азии и жизнь при дворе хана Хубилая.",
+    "countries": [
+      "venice"
+    ],
+    "region": "europe",
+    "period": "middle-ages",
+    "topics": [
+      "exploration",
+      "trade"
+    ],
+    "yearFrom": 1271,
+    "yearTo": 1295
+  },
+  {
+    "id": "h01-019",
+    "level": 1,
+    "difficulty": 190,
+    "question": "В каком году, по легенде, был основан город Рим?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "753 год до н.э."
+      },
+      {
+        "id": "b",
+        "text": "509 год до н.э."
+      },
+      {
+        "id": "c",
+        "text": "146 год до н.э."
+      },
+      {
+        "id": "d",
+        "text": "27 год до н.э."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "По легенде, Рим основал Ромул в 753 году до н. э. на холме Палатин.",
+    "countries": [
+      "roman-empire"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "politics",
+      "culture"
+    ],
+    "yearFrom": -753,
+    "yearTo": -753
+  },
+  {
+    "id": "h01-020",
+    "level": 1,
+    "difficulty": 200,
+    "question": "Какое государство приняло христианство при князе Владимире в 988 году?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Волжская Булгария"
+      },
+      {
+        "id": "b",
+        "text": "Киевская Русь"
+      },
+      {
+        "id": "c",
+        "text": "Хазарский каганат"
+      },
+      {
+        "id": "d",
+        "text": "Великое княжество Литовское"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "В 988 году князь Владимир крестил Киевскую Русь по византийскому обряду.",
+    "countries": [
+      "kievan-rus"
+    ],
+    "region": "europe",
+    "period": "middle-ages",
+    "topics": [
+      "religion",
+      "politics"
+    ],
+    "yearFrom": 988,
+    "yearTo": 988
+  },
+  {
+    "id": "h01-021",
+    "level": 1,
+    "difficulty": 210,
+    "question": "Войска какого европейского завоевателя разгромили империю ацтеков в 1521 году?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Франсиско Писарро"
+      },
+      {
+        "id": "b",
+        "text": "Эрнана Кортеса"
+      },
+      {
+        "id": "c",
+        "text": "Васко да Гамы"
+      },
+      {
+        "id": "d",
+        "text": "Фернана Магеллана"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Испанец Эрнан Кортес захватил столицу ацтеков Теночтитлан в 1521 году.",
+    "countries": [
+      "aztec-empire",
+      "spain"
+    ],
+    "region": "north-america",
+    "period": "early-modern",
+    "topics": [
+      "war",
+      "politics"
+    ],
+    "yearFrom": 1519,
+    "yearTo": 1521
+  },
+  {
+    "id": "h01-022",
+    "level": 1,
+    "difficulty": 220,
+    "question": "Гробницу какого юного фараона археолог Говард Картер нашёл почти нетронутой в 1922 году?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Рамзеса II"
+      },
+      {
+        "id": "b",
+        "text": "Тутанхамона"
+      },
+      {
+        "id": "c",
+        "text": "Эхнатона"
+      },
+      {
+        "id": "d",
+        "text": "Хеопса"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "В 1922 году Говард Картер обнаружил почти нетронутую гробницу фараона Тутанхамона.",
+    "countries": [
+      "egypt"
+    ],
+    "region": "africa",
+    "period": "interwar",
+    "topics": [
+      "discovery",
+      "culture"
+    ],
+    "yearFrom": 1922,
+    "yearTo": 1922
+  },
+  {
+    "id": "h01-023",
+    "level": 1,
+    "difficulty": 230,
+    "question": "В каком городе в 1945 году была подписана Устав-декларация о создании Организации Объединённых Наций?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Нью-Йорк"
+      },
+      {
+        "id": "b",
+        "text": "Женева"
+      },
+      {
+        "id": "c",
+        "text": "Сан-Франциско"
+      },
+      {
+        "id": "d",
+        "text": "Вашингтон"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Устав ООН был подписан представителями 50 стран в Сан-Франциско в июне 1945 года.",
+    "countries": [
+      "usa"
+    ],
+    "region": "north-america",
+    "period": "world-war-2",
+    "topics": [
+      "politics",
+      "diplomacy"
+    ],
+    "yearFrom": 1945,
+    "yearTo": 1945
+  },
+  {
+    "id": "h01-024",
+    "level": 1,
+    "difficulty": 240,
+    "question": "Какой британский учёный в 1928 году случайно открыл пенициллин?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Александр Флеминг"
+      },
+      {
+        "id": "b",
+        "text": "Чарльз Дарвин"
+      },
+      {
+        "id": "c",
+        "text": "Исаак Ньютон"
+      },
+      {
+        "id": "d",
+        "text": "Луи Пастер"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Александр Флеминг заметил, что плесень убивает бактерии, и открыл первый антибиотик — пенициллин.",
+    "countries": [
+      "uk"
+    ],
+    "region": "europe",
+    "period": "interwar",
+    "topics": [
+      "science",
+      "medicine"
+    ],
+    "yearFrom": 1928,
+    "yearTo": 1928
+  },
+  {
+    "id": "h01-025",
+    "level": 1,
+    "difficulty": 250,
+    "question": "Изобретение печатного станка с подвижными литерами примерно в 1440 году связывают с именем...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Леонардо да Винчи"
+      },
+      {
+        "id": "b",
+        "text": "Иоганна Гутенберга"
+      },
+      {
+        "id": "c",
+        "text": "Николая Коперника"
+      },
+      {
+        "id": "d",
+        "text": "Галилео Галилея"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Иоганн Гутенберг создал печатный станок с подвижными литерами, изменивший распространение книг в Европе.",
+    "countries": [
+      "holy-roman-empire"
+    ],
+    "region": "europe",
+    "period": "middle-ages",
+    "topics": [
+      "technology",
+      "culture"
+    ],
+    "yearFrom": 1440,
+    "yearTo": 1440
+  },
+  {
+    "id": "h01-026",
+    "level": 1,
+    "difficulty": 260,
+    "question": "Правитель какой западноафриканской империи, Манса Муса, прославился огромным богатством во время хаджа в Мекку?",
+    "details": "По пути в Мекку в 1324 году Манса Муса раздал столько золота, что, по легендам, обрушил его цену на рынках Каира на годы вперёд.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Империи Сонгай"
+      },
+      {
+        "id": "b",
+        "text": "Империи Мали"
+      },
+      {
+        "id": "c",
+        "text": "Государства Аксум"
+      },
+      {
+        "id": "d",
+        "text": "Королевства Зимбабве"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Манса Муса правил богатой золотом и солью империей Мали в Западной Африке.",
+    "countries": [
+      "mali-empire"
+    ],
+    "region": "africa",
+    "period": "middle-ages",
+    "topics": [
+      "economy",
+      "religion"
+    ],
+    "yearFrom": 1324,
+    "yearTo": 1324
+  },
+  {
+    "id": "h01-027",
+    "level": 1,
+    "difficulty": 270,
+    "question": "В каком году Тринадцать колоний провозгласили независимость от Великобритании?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "1776"
+      },
+      {
+        "id": "b",
+        "text": "1789"
+      },
+      {
+        "id": "c",
+        "text": "1801"
+      },
+      {
+        "id": "d",
+        "text": "1763"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "4 июля 1776 года была принята Декларация независимости США.",
+    "countries": [
+      "usa"
+    ],
+    "region": "north-america",
+    "period": "18-century",
+    "topics": [
+      "politics",
+      "revolution"
+    ],
+    "yearFrom": 1776,
+    "yearTo": 1776
+  },
+  {
+    "id": "h01-028",
+    "level": 1,
+    "difficulty": 280,
+    "question": "Столица какой христианской империи пала под натиском османов в 1453 году?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Священной Римской империи"
+      },
+      {
+        "id": "b",
+        "text": "Болгарского царства"
+      },
+      {
+        "id": "c",
+        "text": "Византийской империи"
+      },
+      {
+        "id": "d",
+        "text": "Сербского царства"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "В 1453 году османы взяли Константинополь, положив конец тысячелетней Византийской империи.",
+    "countries": [
+      "byzantine-empire",
+      "ottoman-empire"
+    ],
+    "region": "europe",
+    "period": "early-modern",
+    "topics": [
+      "war",
+      "politics"
+    ],
+    "yearFrom": 1453,
+    "yearTo": 1453
+  },
+  {
+    "id": "h01-029",
+    "level": 1,
+    "difficulty": 290,
+    "question": "В 1770 году капитан Джеймс Кук нанёс на карту восточное побережье какого материка?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Африки"
+      },
+      {
+        "id": "b",
+        "text": "Австралии"
+      },
+      {
+        "id": "c",
+        "text": "Южной Америки"
+      },
+      {
+        "id": "d",
+        "text": "Антарктиды"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Джеймс Кук первым из европейцев подробно исследовал и нанёс на карту восточное побережье Австралии.",
+    "countries": [
+      "uk",
+      "australia"
+    ],
+    "region": "oceania",
+    "period": "18-century",
+    "topics": [
+      "exploration",
+      "discovery"
+    ],
+    "yearFrom": 1770,
+    "yearTo": 1770
+  },
+  {
+    "id": "h01-030",
+    "level": 1,
+    "difficulty": 300,
+    "question": "Испанец Франсиско Писарро в 1532 году захватил в плен правителя какой южноамериканской империи?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Империи майя"
+      },
+      {
+        "id": "b",
+        "text": "Империи инков"
+      },
+      {
+        "id": "c",
+        "text": "Империи ацтеков"
+      },
+      {
+        "id": "d",
+        "text": "Государства чибча"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Писарро пленил правителя инков Атауальпу в 1532 году, что привело к падению империи инков.",
+    "countries": [
+      "inca-empire",
+      "spain"
+    ],
+    "region": "south-america",
+    "period": "early-modern",
+    "topics": [
+      "war",
+      "politics"
+    ],
+    "yearFrom": 1532,
+    "yearTo": 1533
+  },
+  {
+    "id": "h01-031",
+    "level": 1,
+    "difficulty": 310,
+    "question": "Где в Древней Греции проходили первые известные Олимпийские игры в 776 году до н.э.?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "В Афинах"
+      },
+      {
+        "id": "b",
+        "text": "В Спарте"
+      },
+      {
+        "id": "c",
+        "text": "В Олимпии"
+      },
+      {
+        "id": "d",
+        "text": "В Дельфах"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Первые Олимпийские игры прошли в 776 году до н. э. в честь Зевса в святилище Олимпии.",
+    "countries": [
+      "greece"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "culture",
+      "society"
+    ],
+    "yearFrom": -776,
+    "yearTo": -776
+  },
+  {
+    "id": "h01-032",
+    "level": 1,
+    "difficulty": 320,
+    "question": "Братья Райт совершили первый управляемый полёт самолёта в 1903 году в...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Германии"
+      },
+      {
+        "id": "b",
+        "text": "Франции"
+      },
+      {
+        "id": "c",
+        "text": "США"
+      },
+      {
+        "id": "d",
+        "text": "Великобритании"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Братья Райт подняли в воздух первый самолёт с двигателем в Китти-Хок, США, в 1903 году.",
+    "countries": [
+      "usa"
+    ],
+    "region": "north-america",
+    "period": "19-century",
+    "topics": [
+      "science",
+      "technology"
+    ],
+    "yearFrom": 1903,
+    "yearTo": 1903
+  }
+]

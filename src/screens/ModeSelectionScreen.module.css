@@ -1,0 +1,54 @@
+.backLink {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: var(--space-2) 0;
+  min-height: 44px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+.modes {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+}
+
+.cardTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.cardText {
+  font-size: 15px;
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 640px) {
+  .modes {
+    flex-direction: row;
+  }
+
+  .card {
+    flex: 1 1 0;
+  }
+}

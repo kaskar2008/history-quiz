@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "levels": [
+    {
+      "level": 1,
+      "title": "Самые известные факты",
+      "file": "./level-01.json",
+      "questionCount": 32
+    },
+    {
+      "level": 2,
+      "title": "Базовые даты и личности",
+      "file": "./level-02.json",
+      "questionCount": 32
+    },
+    {
+      "level": 3,
+      "title": "Древний мир",
+      "file": "./level-03.json",
+      "questionCount": 32
+    },
+    {
+      "level": 4,
+      "title": "Средневековье",
+      "file": "./level-04.json",
+      "questionCount": 32
+    },
+    {
+      "level": 5,
+      "title": "Раннее Новое время",
+      "file": "./level-05.json",
+      "questionCount": 32
+    },
+    {
+      "level": 6,
+      "title": "XVIII-XIX века",
+      "file": "./level-06.json",
+      "questionCount": 32
+    },
+    {
+      "level": 7,
+      "title": "Первая половина XX века",
+      "file": "./level-07.json",
+      "questionCount": 32
+    },
+    {
+      "level": 8,
+      "title": "Вторая половина XX века",
+      "file": "./level-08.json",
+      "questionCount": 32
+    },
+    {
+      "level": 9,
+      "title": "Регионы и малоизвестные события",
+      "file": "./level-09.json",
+      "questionCount": 32
+    },
+    {
+      "level": 10,
+      "title": "Вопросы для знатоков",
+      "file": "./level-10.json",
+      "questionCount": 32
+    }
+  ]
+}

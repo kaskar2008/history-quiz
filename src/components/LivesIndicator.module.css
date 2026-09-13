@@ -1,0 +1,15 @@
+.wrapper {
+  display: inline-flex;
+  gap: 3px;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.shieldActive {
+  opacity: 1;
+}
+
+.shieldUsed {
+  opacity: 0.25;
+  filter: grayscale(1);
+}

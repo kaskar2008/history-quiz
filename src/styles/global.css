@@ -1,0 +1,141 @@
+:root {
+  color-scheme: light;
+
+  /* Historical palette: dark navy, burgundy, gold, parchment. */
+  --color-navy-900: #0c1730;
+  --color-navy-800: #122043;
+  --color-navy-700: #1c2d57;
+  --color-burgundy-600: #7a1f2b;
+  --color-burgundy-500: #9c2c3a;
+  --color-gold-500: #d4af6a;
+  --color-gold-400: #e3c583;
+  --color-parchment-100: #faf6ec;
+  --color-parchment-200: #f1e9d5;
+  --color-parchment-300: #e6d9b8;
+
+  --color-bg: var(--color-parchment-100);
+  --color-surface: #ffffff;
+  --color-surface-alt: var(--color-parchment-200);
+  --color-text: var(--color-navy-900);
+  --color-text-muted: #4b5468;
+  --color-primary: var(--color-navy-800);
+  --color-accent: var(--color-gold-500);
+  --color-danger: var(--color-burgundy-600);
+  --color-success: #1f7a4d;
+  --color-border: #d8cdb0;
+
+  --focus-ring: 0 0 0 3px rgba(212, 175, 106, 0.55), 0 0 0 5px rgba(12, 23, 48, 0.35);
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  --content-max-width: 720px;
+
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+
+  --app-height: 100vh;
+}
+
+@supports (height: 100dvh) {
+  :root {
+    --app-height: 100dvh;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family:
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  min-height: var(--app-height);
+}
+
+#root {
+  min-height: var(--app-height);
+  display: flex;
+  flex-direction: column;
+}
+
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+/* Visible focus outline everywhere, keyboard and touch alike. */
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+button:focus-visible,
+a:focus-visible,
+[tabindex]:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

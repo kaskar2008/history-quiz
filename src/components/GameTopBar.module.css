@@ -1,0 +1,76 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: calc(var(--space-3) + var(--safe-top)) var(--space-4) var(--space-2);
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.topRow {
+  display: grid;
+  grid-template-columns: 32px 1fr auto;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.exitButton {
+  justify-self: start;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  border-radius: 50%;
+  border: none;
+  background: var(--color-parchment-200);
+  color: var(--color-text-muted);
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  position: relative;
+}
+
+.exitButton::before {
+  content: "";
+  position: absolute;
+  inset: -6px;
+}
+
+.level {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.score {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-gold-500);
+  background: var(--color-navy-800);
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+
+.progressText {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.rightGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.godMistakes {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}

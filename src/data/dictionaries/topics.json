@@ -1,0 +1,18 @@
+[
+  { "id": "politics", "label": "Политика" },
+  { "id": "war", "label": "Войны" },
+  { "id": "revolution", "label": "Революции" },
+  { "id": "diplomacy", "label": "Дипломатия" },
+  { "id": "economy", "label": "Экономика" },
+  { "id": "trade", "label": "Торговля" },
+  { "id": "science", "label": "Наука" },
+  { "id": "technology", "label": "Технологии" },
+  { "id": "discovery", "label": "Открытия" },
+  { "id": "exploration", "label": "Путешествия" },
+  { "id": "culture", "label": "Культура" },
+  { "id": "art", "label": "Искусство" },
+  { "id": "religion", "label": "Религия" },
+  { "id": "society", "label": "Общество" },
+  { "id": "philosophy", "label": "Философия" },
+  { "id": "medicine", "label": "Медицина" }
+]
