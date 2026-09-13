@@ -8,6 +8,7 @@ export default defineConfig({
   build: {
     outDir: 'docs',
   },
+  base: 'history-quiz',
   test: {
     environment: 'jsdom',
     globals: true,
