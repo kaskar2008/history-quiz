@@ -39,6 +39,7 @@
 }
 
 .cardText {
+  flex: 1;
   font-size: 15px;
   color: var(--color-text-muted);
 }

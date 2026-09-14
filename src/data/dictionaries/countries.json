@@ -228,6 +228,206 @@
     "label": "Карфаген"
   },
   {
+    "id": "thailand",
+    "label": "Таиланд"
+  },
+  {
+    "id": "canada",
+    "label": "Канада"
+  },
+  {
+    "id": "angola",
+    "label": "Ангола"
+  },
+  {
+    "id": "mozambique",
+    "label": "Мозамбик"
+  },
+  {
+    "id": "zimbabwe",
+    "label": "Зимбабве"
+  },
+  {
+    "id": "serbia",
+    "label": "Сербия"
+  },
+  {
+    "id": "lebanon",
+    "label": "Ливан"
+  },
+  {
+    "id": "madagascar",
+    "label": "Мадагаскар"
+  },
+  {
+    "id": "libya",
+    "label": "Ливия"
+  },
+  {
+    "id": "colombia",
+    "label": "Колумбия"
+  },
+  {
+    "id": "suriname",
+    "label": "Суринам"
+  },
+  {
+    "id": "guyana",
+    "label": "Гайана"
+  },
+  {
+    "id": "belize",
+    "label": "Белиз"
+  },
+  {
+    "id": "fiji",
+    "label": "Фиджи"
+  },
+  {
+    "id": "marshall-islands",
+    "label": "Маршалловы Острова"
+  },
+  {
+    "id": "nepal",
+    "label": "Непал"
+  },
+  {
+    "id": "liberia",
+    "label": "Либерия"
+  },
+  {
+    "id": "sierra-leone",
+    "label": "Сьерра-Леоне"
+  },
+  {
+    "id": "comoros",
+    "label": "Коморские Острова"
+  },
+  {
+    "id": "lithuania",
+    "label": "Литва"
+  },
+  {
+    "id": "ghana",
+    "label": "Гана"
+  },
+  {
+    "id": "myanmar",
+    "label": "Мьянма"
+  },
+  {
+    "id": "uganda",
+    "label": "Уганда"
+  },
+  {
+    "id": "tanzania",
+    "label": "Танзания"
+  },
+  {
+    "id": "zambia",
+    "label": "Замбия"
+  },
+  {
+    "id": "bosnia",
+    "label": "Босния и Герцеговина"
+  },
+  {
+    "id": "eritrea",
+    "label": "Эритрея"
+  },
+  {
+    "id": "djibouti",
+    "label": "Джибути"
+  },
+  {
+    "id": "western-sahara",
+    "label": "Западная Сахара"
+  },
+  {
+    "id": "guinea-bissau",
+    "label": "Гвинея-Бисау"
+  },
+  {
+    "id": "burkina-faso",
+    "label": "Буркина-Фасо"
+  },
+  {
+    "id": "ivory-coast",
+    "label": "Кот-д'Ивуар"
+  },
+  {
+    "id": "central-african-republic",
+    "label": "Центральноафриканская Республика"
+  },
+  {
+    "id": "seychelles",
+    "label": "Сейшельские Острова"
+  },
+  {
+    "id": "bhutan",
+    "label": "Бутан"
+  },
+  {
+    "id": "brunei",
+    "label": "Бруней"
+  },
+  {
+    "id": "samoa",
+    "label": "Самоа"
+  },
+  {
+    "id": "jamaica",
+    "label": "Ямайка"
+  },
+  {
+    "id": "grenada",
+    "label": "Гренада"
+  },
+  {
+    "id": "papua-new-guinea",
+    "label": "Папуа — Новая Гвинея"
+  },
+  {
+    "id": "bulgaria",
+    "label": "Болгария"
+  },
+  {
+    "id": "croatia",
+    "label": "Хорватия"
+  },
+  {
+    "id": "iceland",
+    "label": "Исландия"
+  },
+  {
+    "id": "georgia",
+    "label": "Грузия"
+  },
+  {
+    "id": "turkey",
+    "label": "Турция"
+  },
+  {
+    "id": "guatemala",
+    "label": "Гватемала"
+  },
+  {
+    "id": "el-salvador",
+    "label": "Сальвадор"
+  },
+  {
+    "id": "dominican-republic",
+    "label": "Доминиканская Республика"
+  },
+  {
+    "id": "trinidad-and-tobago",
+    "label": "Тринидад и Тобаго"
+  },
+  {
+    "id": "yugoslavia",
+    "label": "Югославия"
+  },
+  {
     "id": "kenya",
     "label": "Кения"
   },

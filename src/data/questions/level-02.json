@@ -75,84 +75,9 @@
     "yearTo": -323
   },
   {
-    "id": "h02-003",
-    "level": 2,
-    "difficulty": 30,
-    "question": "Один из первых сохранившихся сводов законов создал царь Вавилона...",
-    "details": null,
-    "options": [
-      {
-        "id": "a",
-        "text": "Навуходоносор"
-      },
-      {
-        "id": "b",
-        "text": "Хаммурапи"
-      },
-      {
-        "id": "c",
-        "text": "Кир Великий"
-      },
-      {
-        "id": "d",
-        "text": "Дарий I"
-      }
-    ],
-    "correctOptionId": "b",
-    "explanation": "Царь Хаммурапи составил один из древнейших известных законодательных сводов Вавилонии.",
-    "countries": [
-      "babylonia"
-    ],
-    "region": "middle-east",
-    "period": "ancient",
-    "topics": [
-      "politics"
-    ],
-    "yearFrom": -1754,
-    "yearTo": -1754
-  },
-  {
-    "id": "h02-004",
-    "level": 2,
-    "difficulty": 40,
-    "question": "Учение какого китайского мыслителя о морали и правильном обществе легло в основу конфуцианства?",
-    "details": null,
-    "options": [
-      {
-        "id": "a",
-        "text": "Лао-цзы"
-      },
-      {
-        "id": "b",
-        "text": "Конфуция"
-      },
-      {
-        "id": "c",
-        "text": "Сунь-цзы"
-      },
-      {
-        "id": "d",
-        "text": "Мэн-цзы"
-      }
-    ],
-    "correctOptionId": "b",
-    "explanation": "Конфуций сформулировал этическое учение о морали, семье и государстве, ставшее основой китайской культуры.",
-    "countries": [
-      "china"
-    ],
-    "region": "asia",
-    "period": "ancient",
-    "topics": [
-      "philosophy",
-      "culture"
-    ],
-    "yearFrom": -551,
-    "yearTo": -479
-  },
-  {
     "id": "h02-005",
     "level": 2,
-    "difficulty": 50,
+    "difficulty": 30,
     "question": "Принц Сиддхартха Гаутама, достигший просветления в Индии, стал известен как...",
     "details": null,
     "options": [
@@ -186,6 +111,82 @@
     ],
     "yearFrom": -563,
     "yearTo": -483
+  },
+  {
+    "id": "h02-065",
+    "level": 2,
+    "difficulty": 40,
+    "question": "Английский драматург и поэт елизаветинской эпохи, автор «Гамлета» и «Ромео и Джульетты», звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Уильям Шекспир"
+      },
+      {
+        "id": "b",
+        "text": "Кристофер Марло"
+      },
+      {
+        "id": "c",
+        "text": "Бен Джонсон"
+      },
+      {
+        "id": "d",
+        "text": "Джон Мильтон"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Уильям Шекспир считается величайшим драматургом англоязычной литературы.",
+    "countries": [
+      "england"
+    ],
+    "region": "europe",
+    "period": "early-modern",
+    "topics": [
+      "culture",
+      "art"
+    ],
+    "yearFrom": 1600,
+    "yearTo": 1600
+  },
+  {
+    "id": "h02-004",
+    "level": 2,
+    "difficulty": 50,
+    "question": "Учение какого китайского мыслителя о морали и правильном обществе легло в основу конфуцианства?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Лао-цзы"
+      },
+      {
+        "id": "b",
+        "text": "Конфуция"
+      },
+      {
+        "id": "c",
+        "text": "Сунь-цзы"
+      },
+      {
+        "id": "d",
+        "text": "Мэн-цзы"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Конфуций сформулировал этическое учение о морали, семье и государстве, ставшее основой китайской культуры.",
+    "countries": [
+      "china"
+    ],
+    "region": "asia",
+    "period": "ancient",
+    "topics": [
+      "philosophy",
+      "culture"
+    ],
+    "yearFrom": -551,
+    "yearTo": -479
   },
   {
     "id": "h02-006",
@@ -226,47 +227,9 @@
     "yearTo": -49
   },
   {
-    "id": "h02-007",
-    "level": 2,
-    "difficulty": 70,
-    "question": "Свержение последнего западноримского императора в 476 году привело к падению...",
-    "details": null,
-    "options": [
-      {
-        "id": "a",
-        "text": "Персидской державы"
-      },
-      {
-        "id": "b",
-        "text": "Западной Римской империи"
-      },
-      {
-        "id": "c",
-        "text": "Македонского царства"
-      },
-      {
-        "id": "d",
-        "text": "Карфагена"
-      }
-    ],
-    "correctOptionId": "b",
-    "explanation": "В 476 году германский военачальник Одоакр сверг последнего императора Западной Римской империи.",
-    "countries": [
-      "roman-empire"
-    ],
-    "region": "europe",
-    "period": "ancient",
-    "topics": [
-      "politics",
-      "war"
-    ],
-    "yearFrom": 476,
-    "yearTo": 476
-  },
-  {
     "id": "h02-008",
     "level": 2,
-    "difficulty": 80,
+    "difficulty": 70,
     "question": "В 800 году папа римский короновал императорской короной франкского короля...",
     "details": null,
     "options": [
@@ -304,7 +267,7 @@
   {
     "id": "h02-009",
     "level": 2,
-    "difficulty": 90,
+    "difficulty": 80,
     "question": "Победа герцога Вильгельма при Гастингсе в 1066 году привела к завоеванию...",
     "details": null,
     "options": [
@@ -342,7 +305,7 @@
   {
     "id": "h02-010",
     "level": 2,
-    "difficulty": 100,
+    "difficulty": 90,
     "question": "Великая хартия вольностей 1215 года ограничила власть короля...",
     "details": null,
     "options": [
@@ -379,7 +342,7 @@
   {
     "id": "h02-011",
     "level": 2,
-    "difficulty": 110,
+    "difficulty": 100,
     "question": "Кто возглавил французские войска в Столетней войне и была позже сожжена на костре?",
     "details": null,
     "options": [
@@ -416,7 +379,7 @@
   {
     "id": "h02-012",
     "level": 2,
-    "difficulty": 120,
+    "difficulty": 110,
     "question": "Пандемия середины XIV века, унёсшая жизни трети населения Европы, известна как...",
     "details": null,
     "options": [
@@ -452,84 +415,9 @@
     "yearTo": 1351
   },
   {
-    "id": "h02-013",
-    "level": 2,
-    "difficulty": 130,
-    "question": "При каком султане Османская империя достигла наибольшего расцвета в XVI веке?",
-    "details": null,
-    "options": [
-      {
-        "id": "a",
-        "text": "Мехмеде II"
-      },
-      {
-        "id": "b",
-        "text": "Сулеймане Великолепном"
-      },
-      {
-        "id": "c",
-        "text": "Селиме I"
-      },
-      {
-        "id": "d",
-        "text": "Баязиде II"
-      }
-    ],
-    "correctOptionId": "b",
-    "explanation": "При Сулеймане Великолепном Османская империя достигла пика территориального и культурного расцвета.",
-    "countries": [
-      "ottoman-empire"
-    ],
-    "region": "middle-east",
-    "period": "early-modern",
-    "topics": [
-      "politics",
-      "war"
-    ],
-    "yearFrom": 1520,
-    "yearTo": 1566
-  },
-  {
-    "id": "h02-014",
-    "level": 2,
-    "difficulty": 140,
-    "question": "Кто в 1547 году первым принял титул «царь всея Руси»?",
-    "details": null,
-    "options": [
-      {
-        "id": "a",
-        "text": "Иван III"
-      },
-      {
-        "id": "b",
-        "text": "Иван IV Грозный"
-      },
-      {
-        "id": "c",
-        "text": "Борис Годунов"
-      },
-      {
-        "id": "d",
-        "text": "Василий III"
-      }
-    ],
-    "correctOptionId": "b",
-    "explanation": "В 1547 году Иван IV венчался на царство, впервые официально приняв титул царя.",
-    "countries": [
-      "russia"
-    ],
-    "region": "europe",
-    "period": "early-modern",
-    "topics": [
-      "politics"
-    ],
-    "yearFrom": 1547,
-    "yearTo": 1547
-  },
-  {
     "id": "h02-015",
     "level": 2,
-    "difficulty": 150,
+    "difficulty": 120,
     "question": "Разгром какого испанского флота английским флотом королевы Елизаветы I произошёл в 1588 году?",
     "details": null,
     "options": [
@@ -567,7 +455,7 @@
   {
     "id": "h02-016",
     "level": 2,
-    "difficulty": 160,
+    "difficulty": 130,
     "question": "Кто сформулировал законы движения и всемирного тяготения в труде «Начала» 1687 года?",
     "details": null,
     "options": [
@@ -604,7 +492,7 @@
   {
     "id": "h02-017",
     "level": 2,
-    "difficulty": 170,
+    "difficulty": 140,
     "question": "В 1703 году царь Пётр I основал на берегу Балтики новый город...",
     "details": null,
     "options": [
@@ -641,7 +529,7 @@
   {
     "id": "h02-018",
     "level": 2,
-    "difficulty": 180,
+    "difficulty": 150,
     "question": "Кто стал первым президентом США после принятия Конституции в 1789 году?",
     "details": null,
     "options": [
@@ -676,47 +564,9 @@
     "yearTo": 1789
   },
   {
-    "id": "h02-019",
-    "level": 2,
-    "difficulty": 190,
-    "question": "Промышленная революция, начавшаяся во второй половине XVIII века, зародилась прежде всего в...",
-    "details": null,
-    "options": [
-      {
-        "id": "a",
-        "text": "Франции"
-      },
-      {
-        "id": "b",
-        "text": "Великобритании"
-      },
-      {
-        "id": "c",
-        "text": "Пруссии"
-      },
-      {
-        "id": "d",
-        "text": "Голландии"
-      }
-    ],
-    "correctOptionId": "b",
-    "explanation": "Механизация текстильного производства и паровой двигатель впервые массово внедрялись в Великобритании.",
-    "countries": [
-      "uk"
-    ],
-    "region": "europe",
-    "period": "18-century",
-    "topics": [
-      "technology",
-      "economy"
-    ],
-    "yearFrom": 1760,
-    "yearTo": 1799
-  },
-  {
     "id": "h02-020",
     "level": 2,
-    "difficulty": 200,
+    "difficulty": 160,
     "question": "Неудачный поход 1812 года в какую страну стал переломным для армии Наполеона?",
     "details": null,
     "options": [
@@ -752,162 +602,9 @@
     "yearTo": 1812
   },
   {
-    "id": "h02-021",
-    "level": 2,
-    "difficulty": 210,
-    "question": "Венский конгресс 1815 года собрался, чтобы заново определить границы Европы после падения...",
-    "details": null,
-    "options": [
-      {
-        "id": "a",
-        "text": "Священной Римской империи"
-      },
-      {
-        "id": "b",
-        "text": "Наполеона"
-      },
-      {
-        "id": "c",
-        "text": "Османской империи"
-      },
-      {
-        "id": "d",
-        "text": "Речи Посполитой"
-      }
-    ],
-    "correctOptionId": "b",
-    "explanation": "После окончательного поражения Наполеона державы-победительницы перекроили карту Европы на Венском конгрессе.",
-    "countries": [
-      "austria"
-    ],
-    "region": "europe",
-    "period": "19-century",
-    "topics": [
-      "politics",
-      "diplomacy"
-    ],
-    "yearFrom": 1814,
-    "yearTo": 1815
-  },
-  {
-    "id": "h02-022",
-    "level": 2,
-    "difficulty": 220,
-    "question": "Восстание рабов, завершившееся в 1804 году провозглашением первой независимой чернокожей республики, произошло на...",
-    "details": null,
-    "options": [
-      {
-        "id": "a",
-        "text": "Кубе"
-      },
-      {
-        "id": "b",
-        "text": "Ямайке"
-      },
-      {
-        "id": "c",
-        "text": "Гаити"
-      },
-      {
-        "id": "d",
-        "text": "Пуэрто-Рико"
-      }
-    ],
-    "correctOptionId": "c",
-    "explanation": "Восстание рабов под руководством Туссена-Лувертюра привело к провозглашению независимости Гаити в 1804 году.",
-    "countries": [
-      "haiti"
-    ],
-    "region": "north-america",
-    "period": "19-century",
-    "topics": [
-      "revolution",
-      "society"
-    ],
-    "yearFrom": 1791,
-    "yearTo": 1804
-  },
-  {
-    "id": "h02-023",
-    "level": 2,
-    "difficulty": 230,
-    "question": "Кого называют «Освободителем» за роль в борьбе за независимость испанских колоний Южной Америки?",
-    "details": null,
-    "options": [
-      {
-        "id": "a",
-        "text": "Симона Боливара"
-      },
-      {
-        "id": "b",
-        "text": "Хосе де Сан-Мартина"
-      },
-      {
-        "id": "c",
-        "text": "Бернардо О'Хиггинса"
-      },
-      {
-        "id": "d",
-        "text": "Мигеля Идальго"
-      }
-    ],
-    "correctOptionId": "a",
-    "explanation": "Симон Боливар возглавил борьбу за независимость нескольких стран Южной Америки от Испании.",
-    "countries": [
-      "gran-colombia"
-    ],
-    "region": "south-america",
-    "period": "19-century",
-    "topics": [
-      "revolution",
-      "politics"
-    ],
-    "yearFrom": 1810,
-    "yearTo": 1825
-  },
-  {
-    "id": "h02-024",
-    "level": 2,
-    "difficulty": 240,
-    "question": "Первая опиумная война 1839-1842 годов велась между Великобританией и...",
-    "details": null,
-    "options": [
-      {
-        "id": "a",
-        "text": "Японией"
-      },
-      {
-        "id": "b",
-        "text": "Индией"
-      },
-      {
-        "id": "c",
-        "text": "Китаем"
-      },
-      {
-        "id": "d",
-        "text": "Сиамом"
-      }
-    ],
-    "correctOptionId": "c",
-    "explanation": "Британия навязала Китаю торговлю опиумом силой, что закончилось унизительным для Китая договором.",
-    "countries": [
-      "china",
-      "uk"
-    ],
-    "region": "asia",
-    "period": "19-century",
-    "topics": [
-      "war",
-      "trade"
-    ],
-    "yearFrom": 1839,
-    "yearTo": 1842
-  },
-  {
     "id": "h02-025",
     "level": 2,
-    "difficulty": 250,
+    "difficulty": 170,
     "question": "Объединение Германии в 1871 году под властью прусского короля организовал канцлер...",
     "details": null,
     "options": [
@@ -944,161 +641,9 @@
     "yearTo": 1871
   },
   {
-    "id": "h02-026",
-    "level": 2,
-    "difficulty": 260,
-    "question": "Реставрация Мэйдзи 1868 года вернула реальную власть императору и начала модернизацию...",
-    "details": null,
-    "options": [
-      {
-        "id": "a",
-        "text": "Кореи"
-      },
-      {
-        "id": "b",
-        "text": "Японии"
-      },
-      {
-        "id": "c",
-        "text": "Китая"
-      },
-      {
-        "id": "d",
-        "text": "Вьетнама"
-      }
-    ],
-    "correctOptionId": "b",
-    "explanation": "После реставрации Мэйдзи Япония начала быструю индустриализацию и вестернизацию.",
-    "countries": [
-      "japan"
-    ],
-    "region": "asia",
-    "period": "19-century",
-    "topics": [
-      "politics",
-      "economy"
-    ],
-    "yearFrom": 1868,
-    "yearTo": 1868
-  },
-  {
-    "id": "h02-027",
-    "level": 2,
-    "difficulty": 270,
-    "question": "На конференции 1884-1885 годов в Берлине европейские державы согласовали правила раздела...",
-    "details": null,
-    "options": [
-      {
-        "id": "a",
-        "text": "Ближнего Востока"
-      },
-      {
-        "id": "b",
-        "text": "Африки"
-      },
-      {
-        "id": "c",
-        "text": "Юго-Восточной Азии"
-      },
-      {
-        "id": "d",
-        "text": "Балкан"
-      }
-    ],
-    "correctOptionId": "b",
-    "explanation": "Берлинская конференция закрепила правила колониального раздела африканского континента европейцами.",
-    "countries": [
-      "germany"
-    ],
-    "region": "africa",
-    "period": "19-century",
-    "topics": [
-      "politics",
-      "diplomacy"
-    ],
-    "yearFrom": 1884,
-    "yearTo": 1885
-  },
-  {
-    "id": "h02-028",
-    "level": 2,
-    "difficulty": 280,
-    "question": "Вождь какого африканского народа, Чака, создал мощное военное государство в начале XIX века?",
-    "details": null,
-    "options": [
-      {
-        "id": "a",
-        "text": "Ашанти"
-      },
-      {
-        "id": "b",
-        "text": "Зулусов"
-      },
-      {
-        "id": "c",
-        "text": "Масаи"
-      },
-      {
-        "id": "d",
-        "text": "Хауса"
-      }
-    ],
-    "correctOptionId": "b",
-    "explanation": "Чака Зулу реформировал военное дело и создал сильное государство зулусов на юге Африки.",
-    "countries": [
-      "zulu-kingdom"
-    ],
-    "region": "africa",
-    "period": "19-century",
-    "topics": [
-      "war",
-      "politics"
-    ],
-    "yearFrom": 1816,
-    "yearTo": 1828
-  },
-  {
-    "id": "h02-029",
-    "level": 2,
-    "difficulty": 290,
-    "question": "Победа над европейской державой в войне 1904-1905 годов укрепила статус великой державы для...",
-    "details": null,
-    "options": [
-      {
-        "id": "a",
-        "text": "Китая"
-      },
-      {
-        "id": "b",
-        "text": "Японии"
-      },
-      {
-        "id": "c",
-        "text": "Кореи"
-      },
-      {
-        "id": "d",
-        "text": "Таиланда"
-      }
-    ],
-    "correctOptionId": "b",
-    "explanation": "Япония победила Российскую империю в русско-японской войне 1904-1905 годов, что было сенсацией для мира.",
-    "countries": [
-      "japan",
-      "russia"
-    ],
-    "region": "asia",
-    "period": "19-century",
-    "topics": [
-      "war"
-    ],
-    "yearFrom": 1904,
-    "yearTo": 1905
-  },
-  {
     "id": "h02-030",
     "level": 2,
-    "difficulty": 300,
+    "difficulty": 180,
     "question": "Убийство в Сараево в 1914 году эрцгерцога Франца Фердинанда стало поводом к началу...",
     "details": null,
     "options": [
@@ -1136,7 +681,7 @@
   {
     "id": "h02-031",
     "level": 2,
-    "difficulty": 310,
+    "difficulty": 190,
     "question": "Версальский договор 1919 года официально завершил...",
     "details": null,
     "options": [
@@ -1173,9 +718,919 @@
     "yearTo": 1919
   },
   {
-    "id": "h02-032",
+    "id": "h02-045",
+    "level": 2,
+    "difficulty": 200,
+    "question": "Долгое правление английской королевы-девственницы, при которой страна пережила культурный расцвет и разгром Непобедимой армады, называют «золотым веком»...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Елизаветы I"
+      },
+      {
+        "id": "b",
+        "text": "Виктории"
+      },
+      {
+        "id": "c",
+        "text": "Анны Стюарт"
+      },
+      {
+        "id": "d",
+        "text": "Марии I"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Правление Елизаветы I ознаменовалось расцветом английской культуры, включая творчество Шекспира.",
+    "countries": [
+      "england"
+    ],
+    "region": "europe",
+    "period": "early-modern",
+    "topics": [
+      "culture",
+      "politics"
+    ],
+    "yearFrom": 1558,
+    "yearTo": 1603
+  },
+  {
+    "id": "h02-046",
+    "level": 2,
+    "difficulty": 210,
+    "question": "Французский философ-просветитель, автор «Трактата о веротерпимости» и остроумный критик церкви и абсолютизма, известен под псевдонимом...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Вольтер"
+      },
+      {
+        "id": "b",
+        "text": "Дидро"
+      },
+      {
+        "id": "c",
+        "text": "Монтескьё"
+      },
+      {
+        "id": "d",
+        "text": "Кондорсе"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Вольтер стал символом эпохи Просвещения благодаря критике религиозной нетерпимости и деспотизма.",
+    "countries": [
+      "france"
+    ],
+    "region": "europe",
+    "period": "18-century",
+    "topics": [
+      "philosophy"
+    ],
+    "yearFrom": 1763,
+    "yearTo": 1763
+  },
+  {
+    "id": "h02-047",
+    "level": 2,
+    "difficulty": 220,
+    "question": "Женевский философ, автор «Общественного договора», утверждавший, что «человек рождается свободным, но повсюду он в оковах», звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Жан-Жак Руссо"
+      },
+      {
+        "id": "b",
+        "text": "Вольтер"
+      },
+      {
+        "id": "c",
+        "text": "Дени Дидро"
+      },
+      {
+        "id": "d",
+        "text": "Жан Лерон д'Аламбер"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Идеи Руссо об общественном договоре и народном суверенитете оказали огромное влияние на Французскую революцию.",
+    "countries": [
+      "switzerland"
+    ],
+    "region": "europe",
+    "period": "18-century",
+    "topics": [
+      "philosophy"
+    ],
+    "yearFrom": 1762,
+    "yearTo": 1762
+  },
+  {
+    "id": "h02-050",
+    "level": 2,
+    "difficulty": 230,
+    "question": "Британская королева, правившая более 63 лет в XIX веке и давшая имя целой эпохе, называлась...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Виктория"
+      },
+      {
+        "id": "b",
+        "text": "Анна"
+      },
+      {
+        "id": "c",
+        "text": "Елизавета I"
+      },
+      {
+        "id": "d",
+        "text": "Мария II"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Викторианская эпоха отмечена расцветом Британской империи и промышленной мощи.",
+    "countries": [
+      "uk"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1837,
+    "yearTo": 1901
+  },
+  {
+    "id": "h02-051",
+    "level": 2,
+    "difficulty": 240,
+    "question": "Немецкий философ и экономист, автор «Манифеста Коммунистической партии» и «Капитала», звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Карл Маркс"
+      },
+      {
+        "id": "b",
+        "text": "Фридрих Энгельс"
+      },
+      {
+        "id": "c",
+        "text": "Фердинанд Лассаль"
+      },
+      {
+        "id": "d",
+        "text": "Михаил Бакунин"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Идеи Карла Маркса легли в основу коммунистического и социалистического движений XIX-XX веков.",
+    "countries": [
+      "germany"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "philosophy",
+      "politics"
+    ],
+    "yearFrom": 1848,
+    "yearTo": 1848
+  },
+  {
+    "id": "h02-052",
+    "level": 2,
+    "difficulty": 250,
+    "question": "Французский учёный, разработавший метод вакцинации против бешенства и обосновавший микробную теорию болезней, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Луи Пастер"
+      },
+      {
+        "id": "b",
+        "text": "Роберт Кох"
+      },
+      {
+        "id": "c",
+        "text": "Александр Флеминг"
+      },
+      {
+        "id": "d",
+        "text": "Джозеф Листер"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Луи Пастер создал вакцину против бешенства и заложил основы современной микробиологии.",
+    "countries": [
+      "france"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "science",
+      "medicine"
+    ],
+    "yearFrom": 1885,
+    "yearTo": 1885
+  },
+  {
+    "id": "h02-053",
+    "level": 2,
+    "difficulty": 260,
+    "question": "Сербский изобретатель, внёсший огромный вклад в развитие технологии переменного тока и радиосвязи, работавший в основном в США, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Никола Тесла"
+      },
+      {
+        "id": "b",
+        "text": "Томас Эдисон"
+      },
+      {
+        "id": "c",
+        "text": "Гульельмо Маркони"
+      },
+      {
+        "id": "d",
+        "text": "Александр Белл"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Никола Тесла разработал технологию переменного тока, ставшую основой современных энергосистем.",
+    "countries": [
+      "austria-hungary",
+      "usa"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "science",
+      "technology"
+    ],
+    "yearFrom": 1888,
+    "yearTo": 1888
+  },
+  {
+    "id": "h02-054",
+    "level": 2,
+    "difficulty": 270,
+    "question": "Австрийский врач, основоположник психоанализа и теории бессознательного, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Зигмунд Фрейд"
+      },
+      {
+        "id": "b",
+        "text": "Карл Юнг"
+      },
+      {
+        "id": "c",
+        "text": "Альфред Адлер"
+      },
+      {
+        "id": "d",
+        "text": "Жан Пиаже"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Зигмунд Фрейд разработал психоаналитическую теорию, оказавшую огромное влияние на психологию и культуру XX века.",
+    "countries": [
+      "austria-hungary"
+    ],
+    "region": "europe",
+    "period": "world-war-1",
+    "topics": [
+      "science",
+      "philosophy"
+    ],
+    "yearFrom": 1900,
+    "yearTo": 1900
+  },
+  {
+    "id": "h02-059",
+    "level": 2,
+    "difficulty": 280,
+    "question": "Лидер «Свободной Франции» во время немецкой оккупации, а позже основатель Пятой республики и её первый президент, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Шарль де Голль"
+      },
+      {
+        "id": "b",
+        "text": "Филипп Петен"
+      },
+      {
+        "id": "c",
+        "text": "Жорж Помпиду"
+      },
+      {
+        "id": "d",
+        "text": "Пьер Мендес-Франс"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Шарль де Голль возглавил движение Сопротивления из Лондона, а после войны основал Пятую республику.",
+    "countries": [
+      "france"
+    ],
+    "region": "europe",
+    "period": "world-war-2",
+    "topics": [
+      "politics",
+      "war"
+    ],
+    "yearFrom": 1958,
+    "yearTo": 1958
+  },
+  {
+    "id": "h02-066",
+    "level": 2,
+    "difficulty": 290,
+    "question": "Испанский писатель, автор романа о рыцаре, сражающемся с ветряными мельницами, «Дон Кихоте», звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Мигель де Сервантес"
+      },
+      {
+        "id": "b",
+        "text": "Лопе де Вега"
+      },
+      {
+        "id": "c",
+        "text": "Кальдерон де ла Барка"
+      },
+      {
+        "id": "d",
+        "text": "Франсиско де Кеведо"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "«Дон Кихот» Сервантеса считается одним из первых и величайших романов европейской литературы.",
+    "countries": [
+      "spain"
+    ],
+    "region": "europe",
+    "period": "early-modern",
+    "topics": [
+      "culture",
+      "art"
+    ],
+    "yearFrom": 1605,
+    "yearTo": 1605
+  },
+  {
+    "id": "h02-068",
+    "level": 2,
+    "difficulty": 300,
+    "question": "Шведский химик и промышленник, изобретатель динамита, чьё состояние по завещанию учредило престижные международные премии, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Альфред Нобель"
+      },
+      {
+        "id": "b",
+        "text": "Сванте Аррениус"
+      },
+      {
+        "id": "c",
+        "text": "Андерс Цельсий"
+      },
+      {
+        "id": "d",
+        "text": "Джон Эриксон"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Альфред Нобель изобрёл динамит и завещал своё состояние на учреждение Нобелевских премий.",
+    "countries": [
+      "sweden"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "science",
+      "technology"
+    ],
+    "yearFrom": 1867,
+    "yearTo": 1867
+  },
+  {
+    "id": "h02-081",
+    "level": 2,
+    "difficulty": 310,
+    "question": "Аргентинский революционер, участвовавший в кубинской революции и погибший при попытке организовать восстание в Боливии в 1967 году, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Эрнесто «Че» Гевара"
+      },
+      {
+        "id": "b",
+        "text": "Фидель Кастро"
+      },
+      {
+        "id": "c",
+        "text": "Камило Сьенфуэгос"
+      },
+      {
+        "id": "d",
+        "text": "Рауль Кастро"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Че Гевара стал символом революционной борьбы Латинской Америки после гибели в Боливии в 1967 году.",
+    "countries": [
+      "argentina",
+      "cuba",
+      "bolivia"
+    ],
+    "region": "south-america",
+    "period": "cold-war",
+    "topics": [
+      "revolution",
+      "war"
+    ],
+    "yearFrom": 1967,
+    "yearTo": 1967
+  },
+  {
+    "id": "h02-103",
     "level": 2,
     "difficulty": 320,
+    "question": "Русский химик, создавший периодическую систему химических элементов в 1869 году, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Дмитрий Менделеев"
+      },
+      {
+        "id": "b",
+        "text": "Александр Бутлеров"
+      },
+      {
+        "id": "c",
+        "text": "Николай Зинин"
+      },
+      {
+        "id": "d",
+        "text": "Николай Бекетов"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Периодическая таблица Менделеева стала фундаментальным инструментом химической науки.",
+    "countries": [
+      "russia"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "science"
+    ],
+    "yearFrom": 1869,
+    "yearTo": 1869
+  },
+  {
+    "id": "h02-003",
+    "level": 2,
+    "difficulty": 330,
+    "question": "Один из первых сохранившихся сводов законов создал царь Вавилона...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Навуходоносор"
+      },
+      {
+        "id": "b",
+        "text": "Хаммурапи"
+      },
+      {
+        "id": "c",
+        "text": "Кир Великий"
+      },
+      {
+        "id": "d",
+        "text": "Дарий I"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Царь Хаммурапи составил один из древнейших известных законодательных сводов Вавилонии.",
+    "countries": [
+      "babylonia"
+    ],
+    "region": "middle-east",
+    "period": "ancient",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": -1754,
+    "yearTo": -1754
+  },
+  {
+    "id": "h02-007",
+    "level": 2,
+    "difficulty": 340,
+    "question": "Свержение последнего западноримского императора в 476 году привело к падению...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Персидской державы"
+      },
+      {
+        "id": "b",
+        "text": "Западной Римской империи"
+      },
+      {
+        "id": "c",
+        "text": "Македонского царства"
+      },
+      {
+        "id": "d",
+        "text": "Карфагена"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "В 476 году германский военачальник Одоакр сверг последнего императора Западной Римской империи.",
+    "countries": [
+      "roman-empire"
+    ],
+    "region": "europe",
+    "period": "ancient",
+    "topics": [
+      "politics",
+      "war"
+    ],
+    "yearFrom": 476,
+    "yearTo": 476
+  },
+  {
+    "id": "h02-013",
+    "level": 2,
+    "difficulty": 350,
+    "question": "При каком султане Османская империя достигла наибольшего расцвета в XVI веке?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Мехмеде II"
+      },
+      {
+        "id": "b",
+        "text": "Сулеймане Великолепном"
+      },
+      {
+        "id": "c",
+        "text": "Селиме I"
+      },
+      {
+        "id": "d",
+        "text": "Баязиде II"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "При Сулеймане Великолепном Османская империя достигла пика территориального и культурного расцвета.",
+    "countries": [
+      "ottoman-empire"
+    ],
+    "region": "middle-east",
+    "period": "early-modern",
+    "topics": [
+      "politics",
+      "war"
+    ],
+    "yearFrom": 1520,
+    "yearTo": 1566
+  },
+  {
+    "id": "h02-014",
+    "level": 2,
+    "difficulty": 360,
+    "question": "Кто в 1547 году первым принял титул «царь всея Руси»?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Иван III"
+      },
+      {
+        "id": "b",
+        "text": "Иван IV Грозный"
+      },
+      {
+        "id": "c",
+        "text": "Борис Годунов"
+      },
+      {
+        "id": "d",
+        "text": "Василий III"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "В 1547 году Иван IV венчался на царство, впервые официально приняв титул царя.",
+    "countries": [
+      "russia"
+    ],
+    "region": "europe",
+    "period": "early-modern",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1547,
+    "yearTo": 1547
+  },
+  {
+    "id": "h02-019",
+    "level": 2,
+    "difficulty": 370,
+    "question": "Промышленная революция, начавшаяся во второй половине XVIII века, зародилась прежде всего в...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Франции"
+      },
+      {
+        "id": "b",
+        "text": "Великобритании"
+      },
+      {
+        "id": "c",
+        "text": "Пруссии"
+      },
+      {
+        "id": "d",
+        "text": "Голландии"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Механизация текстильного производства и паровой двигатель впервые массово внедрялись в Великобритании.",
+    "countries": [
+      "uk"
+    ],
+    "region": "europe",
+    "period": "18-century",
+    "topics": [
+      "technology",
+      "economy"
+    ],
+    "yearFrom": 1760,
+    "yearTo": 1799
+  },
+  {
+    "id": "h02-021",
+    "level": 2,
+    "difficulty": 380,
+    "question": "Венский конгресс 1815 года собрался, чтобы заново определить границы Европы после падения...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Священной Римской империи"
+      },
+      {
+        "id": "b",
+        "text": "Наполеона"
+      },
+      {
+        "id": "c",
+        "text": "Османской империи"
+      },
+      {
+        "id": "d",
+        "text": "Речи Посполитой"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "После окончательного поражения Наполеона державы-победительницы перекроили карту Европы на Венском конгрессе.",
+    "countries": [
+      "austria"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "politics",
+      "diplomacy"
+    ],
+    "yearFrom": 1814,
+    "yearTo": 1815
+  },
+  {
+    "id": "h02-022",
+    "level": 2,
+    "difficulty": 390,
+    "question": "Восстание рабов, завершившееся в 1804 году провозглашением первой независимой чернокожей республики, произошло на...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Кубе"
+      },
+      {
+        "id": "b",
+        "text": "Ямайке"
+      },
+      {
+        "id": "c",
+        "text": "Гаити"
+      },
+      {
+        "id": "d",
+        "text": "Пуэрто-Рико"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Восстание рабов под руководством Туссена-Лувертюра привело к провозглашению независимости Гаити в 1804 году.",
+    "countries": [
+      "haiti"
+    ],
+    "region": "north-america",
+    "period": "19-century",
+    "topics": [
+      "revolution",
+      "society"
+    ],
+    "yearFrom": 1791,
+    "yearTo": 1804
+  },
+  {
+    "id": "h02-023",
+    "level": 2,
+    "difficulty": 400,
+    "question": "Кого называют «Освободителем» за роль в борьбе за независимость испанских колоний Южной Америки?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Симона Боливара"
+      },
+      {
+        "id": "b",
+        "text": "Хосе де Сан-Мартина"
+      },
+      {
+        "id": "c",
+        "text": "Бернардо О'Хиггинса"
+      },
+      {
+        "id": "d",
+        "text": "Мигеля Идальго"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Симон Боливар возглавил борьбу за независимость нескольких стран Южной Америки от Испании.",
+    "countries": [
+      "gran-colombia"
+    ],
+    "region": "south-america",
+    "period": "19-century",
+    "topics": [
+      "revolution",
+      "politics"
+    ],
+    "yearFrom": 1810,
+    "yearTo": 1825
+  },
+  {
+    "id": "h02-024",
+    "level": 2,
+    "difficulty": 410,
+    "question": "Первая опиумная война 1839-1842 годов велась между Великобританией и...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Японией"
+      },
+      {
+        "id": "b",
+        "text": "Индией"
+      },
+      {
+        "id": "c",
+        "text": "Китаем"
+      },
+      {
+        "id": "d",
+        "text": "Сиамом"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Британия навязала Китаю торговлю опиумом силой, что закончилось унизительным для Китая договором.",
+    "countries": [
+      "china",
+      "uk"
+    ],
+    "region": "asia",
+    "period": "19-century",
+    "topics": [
+      "war",
+      "trade"
+    ],
+    "yearFrom": 1839,
+    "yearTo": 1842
+  },
+  {
+    "id": "h02-026",
+    "level": 2,
+    "difficulty": 420,
+    "question": "Реставрация Мэйдзи 1868 года вернула реальную власть императору и начала модернизацию...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Кореи"
+      },
+      {
+        "id": "b",
+        "text": "Японии"
+      },
+      {
+        "id": "c",
+        "text": "Китая"
+      },
+      {
+        "id": "d",
+        "text": "Вьетнама"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "После реставрации Мэйдзи Япония начала быструю индустриализацию и вестернизацию.",
+    "countries": [
+      "japan"
+    ],
+    "region": "asia",
+    "period": "19-century",
+    "topics": [
+      "politics",
+      "economy"
+    ],
+    "yearFrom": 1868,
+    "yearTo": 1868
+  },
+  {
+    "id": "h02-029",
+    "level": 2,
+    "difficulty": 430,
+    "question": "Победа над европейской державой в войне 1904-1905 годов укрепила статус великой державы для...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Китая"
+      },
+      {
+        "id": "b",
+        "text": "Японии"
+      },
+      {
+        "id": "c",
+        "text": "Кореи"
+      },
+      {
+        "id": "d",
+        "text": "Таиланда"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Япония победила Российскую империю в русско-японской войне 1904-1905 годов, что было сенсацией для мира.",
+    "countries": [
+      "japan",
+      "russia"
+    ],
+    "region": "asia",
+    "period": "19-century",
+    "topics": [
+      "war"
+    ],
+    "yearFrom": 1904,
+    "yearTo": 1905
+  },
+  {
+    "id": "h02-032",
+    "level": 2,
+    "difficulty": 440,
     "question": "Кто организовал в 1930 году «Соляной поход» в знак ненасильственного протеста против британского владычества в Индии?",
     "details": null,
     "options": [
@@ -1209,5 +1664,2298 @@
     ],
     "yearFrom": 1930,
     "yearTo": 1930
+  },
+  {
+    "id": "h02-038",
+    "level": 2,
+    "difficulty": 450,
+    "question": "Итальянский поэт, автор «Божественной комедии», описавший путешествие по аду, чистилищу и раю, — это...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Данте Алигьери"
+      },
+      {
+        "id": "b",
+        "text": "Франческо Петрарка"
+      },
+      {
+        "id": "c",
+        "text": "Джованни Боккаччо"
+      },
+      {
+        "id": "d",
+        "text": "Лудовико Ариосто"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "«Божественная комедия» Данте считается одним из величайших произведений мировой литературы.",
+    "countries": [
+      "italy"
+    ],
+    "region": "europe",
+    "period": "middle-ages",
+    "topics": [
+      "culture",
+      "art"
+    ],
+    "yearFrom": 1320,
+    "yearTo": 1320
+  },
+  {
+    "id": "h02-044",
+    "level": 2,
+    "difficulty": 460,
+    "question": "Шотландская королева, двоюродная племянница Елизаветы I, была казнена по её приказу в 1587 году за участие в заговорах; её звали...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Мария Стюарт"
+      },
+      {
+        "id": "b",
+        "text": "Анна Болейн"
+      },
+      {
+        "id": "c",
+        "text": "Джейн Грей"
+      },
+      {
+        "id": "d",
+        "text": "Екатерина Арагонская"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Казнь Марии Стюарт устранила главную католическую претендентку на английский престол.",
+    "countries": [
+      "england"
+    ],
+    "region": "europe",
+    "period": "early-modern",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1587,
+    "yearTo": 1587
+  },
+  {
+    "id": "h02-049",
+    "level": 2,
+    "difficulty": 470,
+    "question": "Немецкий философ, чьё учение о категорическом императиве заложило основы современной этики, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Иммануил Кант"
+      },
+      {
+        "id": "b",
+        "text": "Готфрид Лейбниц"
+      },
+      {
+        "id": "c",
+        "text": "Георг Гегель"
+      },
+      {
+        "id": "d",
+        "text": "Иоганн Фихте"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Категорический императив Канта стал одним из важнейших понятий в истории этической философии.",
+    "countries": [
+      "prussia"
+    ],
+    "region": "europe",
+    "period": "18-century",
+    "topics": [
+      "philosophy"
+    ],
+    "yearFrom": 1785,
+    "yearTo": 1785
+  },
+  {
+    "id": "h02-055",
+    "level": 2,
+    "difficulty": 480,
+    "question": "Возвращение этого революционера из эмиграции в Россию в апреле 1917 года в «пломбированном вагоне» через территорию Германии стало судьбоносным для дальнейших событий; его звали...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Владимир Ленин"
+      },
+      {
+        "id": "b",
+        "text": "Лев Троцкий"
+      },
+      {
+        "id": "c",
+        "text": "Александр Керенский"
+      },
+      {
+        "id": "d",
+        "text": "Иосиф Сталин"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Возвращение Ленина в Россию в 1917 году при содействии германских властей резко активизировало деятельность большевиков.",
+    "countries": [
+      "russia",
+      "germany"
+    ],
+    "region": "europe",
+    "period": "world-war-1",
+    "topics": [
+      "revolution",
+      "politics"
+    ],
+    "yearFrom": 1917,
+    "yearTo": 1917
+  },
+  {
+    "id": "h02-056",
+    "level": 2,
+    "difficulty": 490,
+    "question": "Основатель и руководитель Красной Армии в годы Гражданской войны в России, позже изгнанный из СССР и убитый агентом НКВД в Мексике, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Лев Троцкий"
+      },
+      {
+        "id": "b",
+        "text": "Михаил Тухачевский"
+      },
+      {
+        "id": "c",
+        "text": "Климент Ворошилов"
+      },
+      {
+        "id": "d",
+        "text": "Семён Будённый"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Лев Троцкий организовал Красную Армию, но позже проиграл борьбу за власть Сталину и был убит в изгнании.",
+    "countries": [
+      "russia",
+      "mexico"
+    ],
+    "region": "europe",
+    "period": "world-war-1",
+    "topics": [
+      "war",
+      "politics"
+    ],
+    "yearFrom": 1918,
+    "yearTo": 1918
+  },
+  {
+    "id": "h02-057",
+    "level": 2,
+    "difficulty": 500,
+    "question": "Вьетнамский революционер и первый президент Демократической Республики Вьетнам, провозгласивший независимость страны в 1945 году, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Хо Ши Мин"
+      },
+      {
+        "id": "b",
+        "text": "Нго Динь Дьем"
+      },
+      {
+        "id": "c",
+        "text": "Во Нгуен Зяп"
+      },
+      {
+        "id": "d",
+        "text": "Ле Зуан"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Хо Ши Мин провозгласил независимость Вьетнама от Франции в сентябре 1945 года.",
+    "countries": [
+      "vietnam"
+    ],
+    "region": "asia",
+    "period": "world-war-2",
+    "topics": [
+      "revolution",
+      "politics"
+    ],
+    "yearFrom": 1945,
+    "yearTo": 1945
+  },
+  {
+    "id": "h02-058",
+    "level": 2,
+    "difficulty": 510,
+    "question": "Югославский лидер, руководивший партизанским сопротивлением нацистам, а затем построивший социализм независимо от Москвы, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Иосип Броз Тито"
+      },
+      {
+        "id": "b",
+        "text": "Милован Джилас"
+      },
+      {
+        "id": "c",
+        "text": "Александр Ранкович"
+      },
+      {
+        "id": "d",
+        "text": "Эдвард Кардель"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Тито выстроил независимый от Москвы курс социалистической Югославии и стал одним из основателей Движения неприсоединения.",
+    "countries": [
+      "yugoslavia"
+    ],
+    "region": "europe",
+    "period": "world-war-2",
+    "topics": [
+      "politics",
+      "war"
+    ],
+    "yearFrom": 1945,
+    "yearTo": 1945
+  },
+  {
+    "id": "h02-060",
+    "level": 2,
+    "difficulty": 520,
+    "question": "Первый президент независимой Ганы и один из идеологов панафриканизма, добившийся независимости страны в 1957 году, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Кваме Нкрума"
+      },
+      {
+        "id": "b",
+        "text": "Джулиус Ньерере"
+      },
+      {
+        "id": "c",
+        "text": "Джомо Кениата"
+      },
+      {
+        "id": "d",
+        "text": "Ннамди Азикиве"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Кваме Нкрума стал символом африканского антиколониального движения и панафриканизма.",
+    "countries": [
+      "ghana"
+    ],
+    "region": "africa",
+    "period": "cold-war",
+    "topics": [
+      "politics",
+      "revolution"
+    ],
+    "yearFrom": 1957,
+    "yearTo": 1957
+  },
+  {
+    "id": "h02-061",
+    "level": 2,
+    "difficulty": 530,
+    "question": "Первый президент независимой Кении, лидер борьбы против британского колониального правления, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Джомо Кениата"
+      },
+      {
+        "id": "b",
+        "text": "Дэниел арап Мои"
+      },
+      {
+        "id": "c",
+        "text": "Оджинга Одинга"
+      },
+      {
+        "id": "d",
+        "text": "Том Мбоя"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Джомо Кениата возглавил Кению к независимости в 1963 году и стал её первым президентом.",
+    "countries": [
+      "kenya"
+    ],
+    "region": "africa",
+    "period": "cold-war",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1963,
+    "yearTo": 1963
+  },
+  {
+    "id": "h02-064",
+    "level": 2,
+    "difficulty": 540,
+    "question": "Аргентинский президент-популист середины XX века, чья жена Эвита стала культовой фигурой аргентинской политики, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Хуан Перон"
+      },
+      {
+        "id": "b",
+        "text": "Артуро Фрондиси"
+      },
+      {
+        "id": "c",
+        "text": "Рауль Альфонсин"
+      },
+      {
+        "id": "d",
+        "text": "Иполито Иригойен"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Хуан Перон и его жена Эвита Перон оказали огромное влияние на аргентинскую политику XX века.",
+    "countries": [
+      "argentina"
+    ],
+    "region": "south-america",
+    "period": "cold-war",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1946,
+    "yearTo": 1946
+  },
+  {
+    "id": "h02-069",
+    "level": 2,
+    "difficulty": 550,
+    "question": "Революционер и первый временный президент Китайской Республики после падения империи в 1912 году, «отец нации», звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Сунь Ятсен"
+      },
+      {
+        "id": "b",
+        "text": "Чан Кайши"
+      },
+      {
+        "id": "c",
+        "text": "Юань Шикай"
+      },
+      {
+        "id": "d",
+        "text": "Мао Цзэдун"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Сунь Ятсен считается основателем современной китайской республики и его почитают как в КНР, так и на Тайване.",
+    "countries": [
+      "china"
+    ],
+    "region": "asia",
+    "period": "world-war-1",
+    "topics": [
+      "revolution",
+      "politics"
+    ],
+    "yearFrom": 1912,
+    "yearTo": 1912
+  },
+  {
+    "id": "h02-070",
+    "level": 2,
+    "difficulty": 560,
+    "question": "Лидер китайских националистов (Гоминьдана), проигравший гражданскую войну коммунистам и основавший правительство на Тайване, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Чан Кайши"
+      },
+      {
+        "id": "b",
+        "text": "Сунь Ятсен"
+      },
+      {
+        "id": "c",
+        "text": "Ли Цзунжэнь"
+      },
+      {
+        "id": "d",
+        "text": "Ван Цзинвэй"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "После поражения от коммунистов Чан Кайши перенёс правительство Китайской Республики на Тайвань.",
+    "countries": [
+      "china"
+    ],
+    "region": "asia",
+    "period": "cold-war",
+    "topics": [
+      "politics",
+      "war"
+    ],
+    "yearFrom": 1949,
+    "yearTo": 1949
+  },
+  {
+    "id": "h02-071",
+    "level": 2,
+    "difficulty": 570,
+    "question": "Основатель и бессменный лидер Северной Кореи с 1948 года, создавший культ личности, продолжающийся при его потомках, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Ким Ир Сен"
+      },
+      {
+        "id": "b",
+        "text": "Ким Ченир"
+      },
+      {
+        "id": "c",
+        "text": "Пак Хонён"
+      },
+      {
+        "id": "d",
+        "text": "Ким Ду Бон"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ким Ир Сен основал Северную Корею и заложил основы династической системы власти.",
+    "countries": [
+      "north-korea"
+    ],
+    "region": "asia",
+    "period": "cold-war",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1948,
+    "yearTo": 1948
+  },
+  {
+    "id": "h02-072",
+    "level": 2,
+    "difficulty": 580,
+    "question": "Первый президент Индонезии, провозгласивший независимость страны от Нидерландов в 1945 году, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Сукарно"
+      },
+      {
+        "id": "b",
+        "text": "Сухарто"
+      },
+      {
+        "id": "c",
+        "text": "Мохаммад Хатта"
+      },
+      {
+        "id": "d",
+        "text": "Шариф Хамид"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Сукарно провозгласил независимость Индонезии и стал её первым президентом.",
+    "countries": [
+      "indonesia"
+    ],
+    "region": "asia",
+    "period": "world-war-2",
+    "topics": [
+      "politics",
+      "revolution"
+    ],
+    "yearFrom": 1945,
+    "yearTo": 1945
+  },
+  {
+    "id": "h02-075",
+    "level": 2,
+    "difficulty": 590,
+    "question": "Первый премьер-министр независимой Индии, соратник Ганди, правивший страной почти два десятилетия, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Джавахарлал Неру"
+      },
+      {
+        "id": "b",
+        "text": "Мохандас Ганди"
+      },
+      {
+        "id": "c",
+        "text": "Валлабхаи Патель"
+      },
+      {
+        "id": "d",
+        "text": "Раджендра Прасад"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Джавахарлал Неру возглавлял независимую Индию с 1947 по 1964 год, заложив основы её внешней и внутренней политики.",
+    "countries": [
+      "india"
+    ],
+    "region": "asia",
+    "period": "cold-war",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1947,
+    "yearTo": 1947
+  },
+  {
+    "id": "h02-077",
+    "level": 2,
+    "difficulty": 600,
+    "question": "Первый премьер-министр и один из отцов-основателей государства Израиль, провозгласивший его независимость в 1948 году, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Давид Бен-Гурион"
+      },
+      {
+        "id": "b",
+        "text": "Хаим Вейцман"
+      },
+      {
+        "id": "c",
+        "text": "Менахем Бегин"
+      },
+      {
+        "id": "d",
+        "text": "Моше Даян"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Давид Бен-Гурион провозгласил независимость Израиля и стал его первым главой правительства.",
+    "countries": [
+      "israel"
+    ],
+    "region": "middle-east",
+    "period": "world-war-2",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1948,
+    "yearTo": 1948
+  },
+  {
+    "id": "h02-078",
+    "level": 2,
+    "difficulty": 610,
+    "question": "Президент Египта, национализировавший Суэцкий канал и ставший символом арабского национализма в 1950-60-х годах, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Гамаль Абдель Насер"
+      },
+      {
+        "id": "b",
+        "text": "Анвар Садат"
+      },
+      {
+        "id": "c",
+        "text": "Хосни Мубарак"
+      },
+      {
+        "id": "d",
+        "text": "Мухаммед Нагиб"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Насер национализировал Суэцкий канал в 1956 году, что вызвало международный кризис.",
+    "countries": [
+      "egypt"
+    ],
+    "region": "middle-east",
+    "period": "cold-war",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1956,
+    "yearTo": 1956
+  },
+  {
+    "id": "h02-079",
+    "level": 2,
+    "difficulty": 620,
+    "question": "Президент Египта, заключивший мирный договор с Израилем в 1979 году и убитый исламистами в 1981-м, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Анвар Садат"
+      },
+      {
+        "id": "b",
+        "text": "Гамаль Абдель Насер"
+      },
+      {
+        "id": "c",
+        "text": "Хосни Мубарак"
+      },
+      {
+        "id": "d",
+        "text": "Мухаммед Нагиб"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Анвар Садат подписал мирный договор с Израилем, за что был убит исламистскими радикалами.",
+    "countries": [
+      "egypt"
+    ],
+    "region": "middle-east",
+    "period": "cold-war",
+    "topics": [
+      "politics",
+      "diplomacy"
+    ],
+    "yearFrom": 1981,
+    "yearTo": 1981
+  },
+  {
+    "id": "h02-080",
+    "level": 2,
+    "difficulty": 630,
+    "question": "Ливийский полковник, свергнувший монархию в 1969 году и правивший страной более 40 лет до своего свержения в 2011 году, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Муаммар Каддафи"
+      },
+      {
+        "id": "b",
+        "text": "Идрис I"
+      },
+      {
+        "id": "c",
+        "text": "Абдул Джалил"
+      },
+      {
+        "id": "d",
+        "text": "Омар Мухтар"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Муаммар Каддафи правил Ливией более четырёх десятилетий до свержения во время Арабской весны.",
+    "countries": [
+      "libya"
+    ],
+    "region": "africa",
+    "period": "cold-war",
+    "topics": [
+      "politics",
+      "revolution"
+    ],
+    "yearFrom": 1969,
+    "yearTo": 1969
+  },
+  {
+    "id": "h02-082",
+    "level": 2,
+    "difficulty": 640,
+    "question": "Президент Уганды в 1970-х годах, чья жестокая диктатура унесла сотни тысяч жизней, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Иди Амин"
+      },
+      {
+        "id": "b",
+        "text": "Милтон Оботе"
+      },
+      {
+        "id": "c",
+        "text": "Йовери Мусевени"
+      },
+      {
+        "id": "d",
+        "text": "Годфри Бинайса"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Режим Иди Амина стал одним из самых жестоких в истории независимой Африки.",
+    "countries": [
+      "uganda"
+    ],
+    "region": "africa",
+    "period": "cold-war",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1971,
+    "yearTo": 1971
+  },
+  {
+    "id": "h02-085",
+    "level": 2,
+    "difficulty": 650,
+    "question": "Флорентийский политический мыслитель, автор трактата «Государь» о прагматичном искусстве удержания власти, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Никколо Макиавелли"
+      },
+      {
+        "id": "b",
+        "text": "Франческо Гвиччардини"
+      },
+      {
+        "id": "c",
+        "text": "Джироламо Савонарола"
+      },
+      {
+        "id": "d",
+        "text": "Лоренцо Валла"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Труд Макиавелли «Государь» стал одним из самых влиятельных и спорных произведений политической мысли.",
+    "countries": [
+      "italy"
+    ],
+    "region": "europe",
+    "period": "early-modern",
+    "topics": [
+      "philosophy",
+      "politics"
+    ],
+    "yearFrom": 1513,
+    "yearTo": 1513
+  },
+  {
+    "id": "h02-087",
+    "level": 2,
+    "difficulty": 660,
+    "question": "Английский мореплаватель и пират, совершивший второе в истории кругосветное плавание и разгромивший испанский флот при Кадисе, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Фрэнсис Дрейк"
+      },
+      {
+        "id": "b",
+        "text": "Уолтер Рэли"
+      },
+      {
+        "id": "c",
+        "text": "Джон Хокинс"
+      },
+      {
+        "id": "d",
+        "text": "Мартин Фробишер"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Фрэнсис Дрейк стал первым капитаном, лично завершившим кругосветное плавание, и национальным героем Англии.",
+    "countries": [
+      "england"
+    ],
+    "region": "europe",
+    "period": "early-modern",
+    "topics": [
+      "exploration"
+    ],
+    "yearFrom": 1580,
+    "yearTo": 1580
+  },
+  {
+    "id": "h02-093",
+    "level": 2,
+    "difficulty": 670,
+    "question": "Английский военачальник и политик, распустивший парламент и правивший Англией как лорд-протектор после казни короля, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Оливер Кромвель"
+      },
+      {
+        "id": "b",
+        "text": "Томас Ферфакс"
+      },
+      {
+        "id": "c",
+        "text": "Генри Айртон"
+      },
+      {
+        "id": "d",
+        "text": "Джон Лэмберт"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Оливер Кромвель правил Англией как лорд-протектор после казни Карла I и упразднения монархии.",
+    "countries": [
+      "england"
+    ],
+    "region": "europe",
+    "period": "early-modern",
+    "topics": [
+      "politics",
+      "war"
+    ],
+    "yearFrom": 1653,
+    "yearTo": 1653
+  },
+  {
+    "id": "h02-095",
+    "level": 2,
+    "difficulty": 680,
+    "question": "Английский врач, разработавший первую в мире вакцину против оспы на основе коровьей оспы в конце XVIII века, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Эдвард Дженнер"
+      },
+      {
+        "id": "b",
+        "text": "Джозеф Листер"
+      },
+      {
+        "id": "c",
+        "text": "Джон Сноу"
+      },
+      {
+        "id": "d",
+        "text": "Роберт Кох"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Вакцина Эдварда Дженнера против оспы стала первой в истории вакциной и спасла миллионы жизней.",
+    "countries": [
+      "uk"
+    ],
+    "region": "europe",
+    "period": "18-century",
+    "topics": [
+      "medicine",
+      "science"
+    ],
+    "yearFrom": 1796,
+    "yearTo": 1796
+  },
+  {
+    "id": "h02-098",
+    "level": 2,
+    "difficulty": 690,
+    "question": "Австрийский монах-биолог, чьи опыты с горохом заложили основы науки о наследственности, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Грегор Мендель"
+      },
+      {
+        "id": "b",
+        "text": "Чарльз Дарвин"
+      },
+      {
+        "id": "c",
+        "text": "Эрнст Геккель"
+      },
+      {
+        "id": "d",
+        "text": "Август Вейсман"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Опыты Грегора Менделя с горохом заложили основы современной генетики, хотя были признаны лишь спустя десятилетия.",
+    "countries": [
+      "austria-hungary"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "science"
+    ],
+    "yearFrom": 1865,
+    "yearTo": 1865
+  },
+  {
+    "id": "h02-099",
+    "level": 2,
+    "difficulty": 700,
+    "question": "Американский изобретатель телеграфного кода, состоящего из точек и тире, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Сэмюэл Морзе"
+      },
+      {
+        "id": "b",
+        "text": "Александр Белл"
+      },
+      {
+        "id": "c",
+        "text": "Томас Эдисон"
+      },
+      {
+        "id": "d",
+        "text": "Сайрус Филд"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Азбука Морзе стала стандартом телеграфной связи на десятилетия вперёд.",
+    "countries": [
+      "usa"
+    ],
+    "region": "north-america",
+    "period": "19-century",
+    "topics": [
+      "technology"
+    ],
+    "yearFrom": 1837,
+    "yearTo": 1837
+  },
+  {
+    "id": "h02-100",
+    "level": 2,
+    "difficulty": 710,
+    "question": "Итальянский физик и инженер, изобретатель практичной системы беспроводной радиосвязи, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Гульельмо Маркони"
+      },
+      {
+        "id": "b",
+        "text": "Никола Тесла"
+      },
+      {
+        "id": "c",
+        "text": "Генрих Герц"
+      },
+      {
+        "id": "d",
+        "text": "Александр Попов"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Гульельмо Маркони получил Нобелевскую премию за развитие практической беспроводной телеграфии.",
+    "countries": [
+      "italy"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "technology",
+      "science"
+    ],
+    "yearFrom": 1895,
+    "yearTo": 1895
+  },
+  {
+    "id": "h02-101",
+    "level": 2,
+    "difficulty": 720,
+    "question": "Немецкий физик, открывший в 1895 году излучение, позволяющее видеть внутренние структуры тела и получивший первую Нобелевскую премию по физике, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Вильгельм Рентген"
+      },
+      {
+        "id": "b",
+        "text": "Макс Планк"
+      },
+      {
+        "id": "c",
+        "text": "Генрих Герц"
+      },
+      {
+        "id": "d",
+        "text": "Йоганнес Ридберг"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Открытие Рентгеном Х-лучей произвело революцию в медицинской диагностике.",
+    "countries": [
+      "germany"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "science",
+      "medicine"
+    ],
+    "yearFrom": 1895,
+    "yearTo": 1895
+  },
+  {
+    "id": "h02-102",
+    "level": 2,
+    "difficulty": 730,
+    "question": "Русский физиолог, изучивший условные рефлексы на примере слюноотделения у собак и получивший Нобелевскую премию, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Иван Павлов"
+      },
+      {
+        "id": "b",
+        "text": "Илья Мечников"
+      },
+      {
+        "id": "c",
+        "text": "Иван Сеченов"
+      },
+      {
+        "id": "d",
+        "text": "Дмитрий Менделеев"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Учение Ивана Павлова об условных рефлексах оказало огромное влияние на физиологию и психологию.",
+    "countries": [
+      "russia"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "science"
+    ],
+    "yearFrom": 1904,
+    "yearTo": 1904
+  },
+  {
+    "id": "h02-027",
+    "level": 2,
+    "difficulty": 740,
+    "question": "На конференции 1884-1885 годов в Берлине европейские державы согласовали правила раздела...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Ближнего Востока"
+      },
+      {
+        "id": "b",
+        "text": "Африки"
+      },
+      {
+        "id": "c",
+        "text": "Юго-Восточной Азии"
+      },
+      {
+        "id": "d",
+        "text": "Балкан"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Берлинская конференция закрепила правила колониального раздела африканского континента европейцами.",
+    "countries": [
+      "germany"
+    ],
+    "region": "africa",
+    "period": "19-century",
+    "topics": [
+      "politics",
+      "diplomacy"
+    ],
+    "yearFrom": 1884,
+    "yearTo": 1885
+  },
+  {
+    "id": "h02-028",
+    "level": 2,
+    "difficulty": 750,
+    "question": "Вождь какого африканского народа, Чака, создал мощное военное государство в начале XIX века?",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Ашанти"
+      },
+      {
+        "id": "b",
+        "text": "Зулусов"
+      },
+      {
+        "id": "c",
+        "text": "Масаи"
+      },
+      {
+        "id": "d",
+        "text": "Хауса"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Чака Зулу реформировал военное дело и создал сильное государство зулусов на юге Африки.",
+    "countries": [
+      "zulu-kingdom"
+    ],
+    "region": "africa",
+    "period": "19-century",
+    "topics": [
+      "war",
+      "politics"
+    ],
+    "yearFrom": 1816,
+    "yearTo": 1828
+  },
+  {
+    "id": "h02-035",
+    "level": 2,
+    "difficulty": 760,
+    "question": "Шотландский рыцарь, разгромивший англичан при Бэннокберне в 1314 году и добившийся независимости Шотландии, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Роберт Брюс"
+      },
+      {
+        "id": "b",
+        "text": "Уильям Уоллес"
+      },
+      {
+        "id": "c",
+        "text": "Дэвид II"
+      },
+      {
+        "id": "d",
+        "text": "Джеймс Дуглас"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Роберт Брюс возглавил победу при Бэннокберне, ставшую ключевой в борьбе Шотландии за независимость.",
+    "countries": [
+      "england"
+    ],
+    "region": "europe",
+    "period": "middle-ages",
+    "topics": [
+      "war"
+    ],
+    "yearFrom": 1314,
+    "yearTo": 1314
+  },
+  {
+    "id": "h02-036",
+    "level": 2,
+    "difficulty": 770,
+    "question": "Шотландский повстанец, казнённый англичанами в 1305 году и позже прославленный в кино, поднял восстание против власти...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Уильям Уоллес"
+      },
+      {
+        "id": "b",
+        "text": "Роберт Брюс"
+      },
+      {
+        "id": "c",
+        "text": "Джеймс I"
+      },
+      {
+        "id": "d",
+        "text": "Малкольм III"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Уильям Уоллес возглавил раннее восстание против английского владычества в Шотландии, за что был казнён.",
+    "countries": [
+      "england"
+    ],
+    "region": "europe",
+    "period": "middle-ages",
+    "topics": [
+      "war",
+      "revolution"
+    ],
+    "yearFrom": 1305,
+    "yearTo": 1305
+  },
+  {
+    "id": "h02-037",
+    "level": 2,
+    "difficulty": 780,
+    "question": "Французский король Филипп IV в 1307 году организовал разгром и упразднение богатого и влиятельного военно-монашеского ордена...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Тамплиеров"
+      },
+      {
+        "id": "b",
+        "text": "Госпитальеров"
+      },
+      {
+        "id": "c",
+        "text": "Тевтонского ордена"
+      },
+      {
+        "id": "d",
+        "text": "Ливонского ордена"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Филипп IV уничтожил орден тамплиеров, чтобы завладеть его богатствами и избавиться от долгов перед ним.",
+    "countries": [
+      "france"
+    ],
+    "region": "europe",
+    "period": "middle-ages",
+    "topics": [
+      "politics",
+      "religion"
+    ],
+    "yearFrom": 1307,
+    "yearTo": 1307
+  },
+  {
+    "id": "h02-040",
+    "level": 2,
+    "difficulty": 790,
+    "question": "Мусульманский путешественник XIV века, объехавший почти весь исламский мир от Марокко до Китая и описавший его в «Рихле», звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Ибн Баттута"
+      },
+      {
+        "id": "b",
+        "text": "Ибн Хальдун"
+      },
+      {
+        "id": "c",
+        "text": "Ибн Сина"
+      },
+      {
+        "id": "d",
+        "text": "Ибн Рушд"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ибн Баттута считается одним из величайших путешественников домодерной эпохи, преодолевшим более 100 тысяч километров.",
+    "countries": [
+      "morocco"
+    ],
+    "region": "africa",
+    "period": "middle-ages",
+    "topics": [
+      "exploration",
+      "culture"
+    ],
+    "yearFrom": 1325,
+    "yearTo": 1354
+  },
+  {
+    "id": "h02-043",
+    "level": 2,
+    "difficulty": 800,
+    "question": "Багдадский учёный IX века, чьё имя (в латинизированной форме) дало название разделу математики «алгебра», звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Аль-Хорезми"
+      },
+      {
+        "id": "b",
+        "text": "Аль-Кинди"
+      },
+      {
+        "id": "c",
+        "text": "Ибн аль-Хайсам"
+      },
+      {
+        "id": "d",
+        "text": "Аль-Баттани"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Труды Аль-Хорезми о решении уравнений дали европейским языкам термин «алгебра» и слово «алгоритм».",
+    "countries": [
+      "iraq"
+    ],
+    "region": "middle-east",
+    "period": "middle-ages",
+    "topics": [
+      "science"
+    ],
+    "yearFrom": 820,
+    "yearTo": 820
+  },
+  {
+    "id": "h02-048",
+    "level": 2,
+    "difficulty": 810,
+    "question": "Французский философ-просветитель, возглавивший издание грандиозной многотомной «Энциклопедии наук, искусств и ремёсел», звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Дени Дидро"
+      },
+      {
+        "id": "b",
+        "text": "Вольтер"
+      },
+      {
+        "id": "c",
+        "text": "Жан-Жак Руссо"
+      },
+      {
+        "id": "d",
+        "text": "Клод Гельвеций"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "«Энциклопедия» Дидро стала одним из главных проектов эпохи Просвещения, систематизировавшим знания своего времени.",
+    "countries": [
+      "france"
+    ],
+    "region": "europe",
+    "period": "18-century",
+    "topics": [
+      "philosophy",
+      "culture"
+    ],
+    "yearFrom": 1751,
+    "yearTo": 1751
+  },
+  {
+    "id": "h02-062",
+    "level": 2,
+    "difficulty": 820,
+    "question": "Мексиканский президент-реформатор середины XIX века, первый глава государства индейского происхождения в Латинской Америке, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Бенито Хуарес"
+      },
+      {
+        "id": "b",
+        "text": "Порфирио Диас"
+      },
+      {
+        "id": "c",
+        "text": "Антонио Санта-Анна"
+      },
+      {
+        "id": "d",
+        "text": "Агустин де Итурбиде"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Бенито Хуарес провёл либеральные реформы и возглавил сопротивление французской интервенции в Мексике.",
+    "countries": [
+      "mexico"
+    ],
+    "region": "north-america",
+    "period": "19-century",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1858,
+    "yearTo": 1858
+  },
+  {
+    "id": "h02-063",
+    "level": 2,
+    "difficulty": 830,
+    "question": "Бразильский президент, правивший в 1930-1945 и 1951-1954 годах и проводивший популистскую политику индустриализации, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Жетулиу Варгас"
+      },
+      {
+        "id": "b",
+        "text": "Педру II"
+      },
+      {
+        "id": "c",
+        "text": "Жуселину Кубичек"
+      },
+      {
+        "id": "d",
+        "text": "Дейодоро да Фонсека"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Жетулиу Варгас доминировал в политике Бразилии несколько десятилетий XX века.",
+    "countries": [
+      "brazil"
+    ],
+    "region": "south-america",
+    "period": "interwar",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1930,
+    "yearTo": 1930
+  },
+  {
+    "id": "h02-067",
+    "level": 2,
+    "difficulty": 840,
+    "question": "Пьемонтский политик и дипломат, добившийся объединения Италии дипломатическим искусством наряду с военной силой Гарибальди, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Камилло Кавур"
+      },
+      {
+        "id": "b",
+        "text": "Джузеппе Мадзини"
+      },
+      {
+        "id": "c",
+        "text": "Виктор Эммануил II"
+      },
+      {
+        "id": "d",
+        "text": "Франческо Криспи"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Граф Кавур сыграл ключевую дипломатическую роль в объединении Италии вокруг Пьемонта.",
+    "countries": [
+      "italy"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "politics",
+      "diplomacy"
+    ],
+    "yearFrom": 1861,
+    "yearTo": 1861
+  },
+  {
+    "id": "h02-074",
+    "level": 2,
+    "difficulty": 850,
+    "question": "Основатель и первый генерал-губернатор Пакистана, добившийся создания отдельного государства для мусульман Британской Индии, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Мухаммад Али Джинна"
+      },
+      {
+        "id": "b",
+        "text": "Лиакат Али Хан"
+      },
+      {
+        "id": "c",
+        "text": "Мухаммад Икбал"
+      },
+      {
+        "id": "d",
+        "text": "Аюб Хан"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Мухаммад Али Джинна возглавил Мусульманскую лигу и добился создания Пакистана в 1947 году.",
+    "countries": [
+      "pakistan"
+    ],
+    "region": "asia",
+    "period": "world-war-2",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1947,
+    "yearTo": 1947
+  },
+  {
+    "id": "h02-076",
+    "level": 2,
+    "difficulty": 860,
+    "question": "Первая и пока единственная женщина-премьер-министр Израиля, занимавшая пост в начале 1970-х годов, звалась...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Голда Меир"
+      },
+      {
+        "id": "b",
+        "text": "Ципи Ливни"
+      },
+      {
+        "id": "c",
+        "text": "Дальа Ицик"
+      },
+      {
+        "id": "d",
+        "text": "Шуламит Алони"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Голда Меир (урождённая Мабовиц) была единственной женщиной, возглавлявшей правительство Израиля.",
+    "countries": [
+      "israel"
+    ],
+    "region": "middle-east",
+    "period": "cold-war",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1969,
+    "yearTo": 1969
+  },
+  {
+    "id": "h02-083",
+    "level": 2,
+    "difficulty": 870,
+    "question": "Первый президент независимой Танзании, сторонник африканского социализма («уджамаа») и один из основателей ОАЕ, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Джулиус Ньерере"
+      },
+      {
+        "id": "b",
+        "text": "Кваме Нкрума"
+      },
+      {
+        "id": "c",
+        "text": "Джомо Кениата"
+      },
+      {
+        "id": "d",
+        "text": "Кеннет Каунда"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Джулиус Ньерере проводил политику «уджамаа» — африканского социализма, основанного на общинном хозяйстве.",
+    "countries": [
+      "tanzania"
+    ],
+    "region": "africa",
+    "period": "cold-war",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1964,
+    "yearTo": 1964
+  },
+  {
+    "id": "h02-086",
+    "level": 2,
+    "difficulty": 880,
+    "question": "Испанский конкистадор, первым из европейцев увидевший Тихий океан, перейдя Панамский перешеек в 1513 году, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Васко Нуньес де Бальбоа"
+      },
+      {
+        "id": "b",
+        "text": "Эрнан Кортес"
+      },
+      {
+        "id": "c",
+        "text": "Франсиско Писарро"
+      },
+      {
+        "id": "d",
+        "text": "Педро де Альварадо"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Бальбоа стал первым европейцем, увидевшим Тихий океан с американской стороны континента.",
+    "countries": [
+      "spain"
+    ],
+    "region": "north-america",
+    "period": "early-modern",
+    "topics": [
+      "exploration"
+    ],
+    "yearFrom": 1513,
+    "yearTo": 1513
+  },
+  {
+    "id": "h02-088",
+    "level": 2,
+    "difficulty": 890,
+    "question": "Английский придворный, основавший неудачную колонию Роанок в Северной Америке в 1580-х годах, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Уолтер Рэли"
+      },
+      {
+        "id": "b",
+        "text": "Фрэнсис Дрейк"
+      },
+      {
+        "id": "c",
+        "text": "Хамфри Гилберт"
+      },
+      {
+        "id": "d",
+        "text": "Джон Смит"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Колония Роанок, основанная по инициативе Уолтера Рэли, таинственно исчезла, оставив след в истории как «Затерянная колония».",
+    "countries": [
+      "usa"
+    ],
+    "region": "north-america",
+    "period": "early-modern",
+    "topics": [
+      "exploration"
+    ],
+    "yearFrom": 1585,
+    "yearTo": 1585
+  },
+  {
+    "id": "h02-090",
+    "level": 2,
+    "difficulty": 900,
+    "question": "Английский мореплаватель, чьим именем назван крупный северный залив и пролив в Канаде и который погиб после мятежа собственной команды, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Генри Гудзон"
+      },
+      {
+        "id": "b",
+        "text": "Мартин Фробишер"
+      },
+      {
+        "id": "c",
+        "text": "Джон Дэвис"
+      },
+      {
+        "id": "d",
+        "text": "Уильям Баффин"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Генри Гудзон исследовал север Северной Америки, но его команда взбунтовалась и оставила его умирать в открытом море.",
+    "countries": [
+      "canada"
+    ],
+    "region": "north-america",
+    "period": "early-modern",
+    "topics": [
+      "exploration"
+    ],
+    "yearFrom": 1610,
+    "yearTo": 1610
+  },
+  {
+    "id": "h02-092",
+    "level": 2,
+    "difficulty": 910,
+    "question": "Английский квакер, получивший от короны земельный грант и основавший колонию, названную в честь его отца, — Пенсильванию; его звали...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Уильям Пенн"
+      },
+      {
+        "id": "b",
+        "text": "Роджер Уильямс"
+      },
+      {
+        "id": "c",
+        "text": "Джеймс Оглторп"
+      },
+      {
+        "id": "d",
+        "text": "Джон Уинтроп"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Уильям Пенн основал Пенсильванию как убежище для религиозных меньшинств, включая квакеров.",
+    "countries": [
+      "usa"
+    ],
+    "region": "north-america",
+    "period": "early-modern",
+    "topics": [
+      "exploration",
+      "religion"
+    ],
+    "yearFrom": 1681,
+    "yearTo": 1681
+  },
+  {
+    "id": "h02-094",
+    "level": 2,
+    "difficulty": 920,
+    "question": "Английский инженер, построивший первый успешный паровоз «Ракета» и заложивший основы железнодорожного транспорта, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Джордж Стефенсон"
+      },
+      {
+        "id": "b",
+        "text": "Ричард Тревитик"
+      },
+      {
+        "id": "c",
+        "text": "Изамбард Брюнель"
+      },
+      {
+        "id": "d",
+        "text": "Джеймс Уатт"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Локомотив «Ракета» Джорджа Стефенсона стал прообразом железнодорожной техники на десятилетия вперёд.",
+    "countries": [
+      "uk"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "technology"
+    ],
+    "yearFrom": 1829,
+    "yearTo": 1829
+  },
+  {
+    "id": "h02-096",
+    "level": 2,
+    "difficulty": 930,
+    "question": "Немецкий врач и микробиолог, открывший возбудителей туберкулёза и холеры, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Роберт Кох"
+      },
+      {
+        "id": "b",
+        "text": "Луи Пастер"
+      },
+      {
+        "id": "c",
+        "text": "Пауль Эрлих"
+      },
+      {
+        "id": "d",
+        "text": "Рудольф Вирхов"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Роберт Кох сформулировал критерии для доказательства инфекционной природы болезней и открыл ряд возбудителей.",
+    "countries": [
+      "germany"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "medicine",
+      "science"
+    ],
+    "yearFrom": 1882,
+    "yearTo": 1882
+  },
+  {
+    "id": "h02-097",
+    "level": 2,
+    "difficulty": 940,
+    "question": "Британский хирург, внедривший антисептические методы в хирургию на основе идей Пастера и резко снизивший смертность от инфекций, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Джозеф Листер"
+      },
+      {
+        "id": "b",
+        "text": "Джеймс Симпсон"
+      },
+      {
+        "id": "c",
+        "text": "Джон Хантер"
+      },
+      {
+        "id": "d",
+        "text": "Александр Флеминг"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Джозеф Листер ввёл антисептическую хирургию, значительно сократив число смертей от послеоперационных инфекций.",
+    "countries": [
+      "uk"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "medicine",
+      "science"
+    ],
+    "yearFrom": 1865,
+    "yearTo": 1865
+  },
+  {
+    "id": "h02-033",
+    "level": 2,
+    "difficulty": 950,
+    "question": "Королева-консорт Франции, а затем Англии, участница Второго крестового похода и мать Ричарда Львиное Сердце, звалась...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Элеонора Аквитанская"
+      },
+      {
+        "id": "b",
+        "text": "Бланка Кастильская"
+      },
+      {
+        "id": "c",
+        "text": "Изабелла Французская"
+      },
+      {
+        "id": "d",
+        "text": "Матильда Английская"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Элеонора Аквитанская была одной из самых влиятельных женщин средневековой Европы, королевой сначала Франции, затем Англии.",
+    "countries": [
+      "france",
+      "england"
+    ],
+    "region": "europe",
+    "period": "middle-ages",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1152,
+    "yearTo": 1152
+  },
+  {
+    "id": "h02-034",
+    "level": 2,
+    "difficulty": 960,
+    "question": "Английский король Ричард Львиное Сердце на обратном пути из крестового похода попал в плен и был отпущен только за огромный...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Выкуп"
+      },
+      {
+        "id": "b",
+        "text": "Отказ от короны"
+      },
+      {
+        "id": "c",
+        "text": "Военный союз"
+      },
+      {
+        "id": "d",
+        "text": "Династический брак"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ричард был захвачен герцогом Австрии и освобождён лишь после уплаты огромного выкупа.",
+    "countries": [
+      "england",
+      "austria"
+    ],
+    "region": "europe",
+    "period": "middle-ages",
+    "topics": [
+      "politics",
+      "war"
+    ],
+    "yearFrom": 1192,
+    "yearTo": 1194
+  },
+  {
+    "id": "h02-039",
+    "level": 2,
+    "difficulty": 970,
+    "question": "Итальянского поэта и учёного, которого считают «отцом гуманизма» за интерес к античному наследию, звали...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Франческо Петрарка"
+      },
+      {
+        "id": "b",
+        "text": "Данте Алигьери"
+      },
+      {
+        "id": "c",
+        "text": "Марсилио Фичино"
+      },
+      {
+        "id": "d",
+        "text": "Пико делла Мирандола"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Петрарка возродил интерес к классической древности, заложив основы гуманизма эпохи Возрождения.",
+    "countries": [
+      "italy"
+    ],
+    "region": "europe",
+    "period": "middle-ages",
+    "topics": [
+      "culture",
+      "philosophy"
+    ],
+    "yearFrom": 1341,
+    "yearTo": 1341
+  },
+  {
+    "id": "h02-042",
+    "level": 2,
+    "difficulty": 980,
+    "question": "Персидский или среднеазиатский учёный, чей труд «Канон врачебной науки» веками оставался эталоном медицины в Европе и на Востоке, известен на Западе как...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Авиценна (Ибн Сина)"
+      },
+      {
+        "id": "b",
+        "text": "Аверроэс (Ибн Рушд)"
+      },
+      {
+        "id": "c",
+        "text": "Аль-Хорезми"
+      },
+      {
+        "id": "d",
+        "text": "Аль-Рази"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "«Канон врачебной науки» Ибн Сины веками использовался как основной медицинский учебник в Европе и на мусульманском Востоке.",
+    "countries": [
+      "afghanistan"
+    ],
+    "region": "middle-east",
+    "period": "middle-ages",
+    "topics": [
+      "medicine",
+      "science"
+    ],
+    "yearFrom": 1025,
+    "yearTo": 1025
+  },
+  {
+    "id": "h02-073",
+    "level": 2,
+    "difficulty": 990,
+    "question": "Бирманский национальный герой и отец лидера движения за демократию Аун Сан Су Чжи, добившийся соглашения о независимости от Британии, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Аун Сан"
+      },
+      {
+        "id": "b",
+        "text": "У Ну"
+      },
+      {
+        "id": "c",
+        "text": "Не Вин"
+      },
+      {
+        "id": "d",
+        "text": "Такин Тан Тун"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Аун Сан добился соглашения о независимости Бирмы, но был убит незадолго до её провозглашения.",
+    "countries": [
+      "myanmar"
+    ],
+    "region": "asia",
+    "period": "world-war-2",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1947,
+    "yearTo": 1947
+  },
+  {
+    "id": "h02-084",
+    "level": 2,
+    "difficulty": 1000,
+    "question": "Первый президент независимой Замбии, правивший страной более 25 лет после провозглашения независимости в 1964 году, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Кеннет Каунда"
+      },
+      {
+        "id": "b",
+        "text": "Фредерик Чилуба"
+      },
+      {
+        "id": "c",
+        "text": "Гарри Нкумбула"
+      },
+      {
+        "id": "d",
+        "text": "Саймон Кападиа"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Кеннет Каунда возглавлял Замбию с момента обретения независимости и до 1991 года.",
+    "countries": [
+      "zambia"
+    ],
+    "region": "africa",
+    "period": "cold-war",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1964,
+    "yearTo": 1964
+  },
+  {
+    "id": "h02-089",
+    "level": 2,
+    "difficulty": 1010,
+    "question": "Французский исследователь, картировавший залив Святого Лаврентия и заявивший права Франции на территорию будущей Канады, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Жак Картье"
+      },
+      {
+        "id": "b",
+        "text": "Самюэль де Шамплен"
+      },
+      {
+        "id": "c",
+        "text": "Робер де Ла Саль"
+      },
+      {
+        "id": "d",
+        "text": "Луи Жолье"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Жак Картье исследовал реку Святого Лаврентия и первым из французов заявил права на территорию Канады.",
+    "countries": [
+      "canada",
+      "france"
+    ],
+    "region": "north-america",
+    "period": "early-modern",
+    "topics": [
+      "exploration"
+    ],
+    "yearFrom": 1534,
+    "yearTo": 1534
+  },
+  {
+    "id": "h02-091",
+    "level": 2,
+    "difficulty": 1020,
+    "question": "Голландский колониальный чиновник, руководивший Новым Амстердамом до его захвата англичанами в 1664 году, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Петер Стёйвесант"
+      },
+      {
+        "id": "b",
+        "text": "Виллем Кифт"
+      },
+      {
+        "id": "c",
+        "text": "Питер Минёйт"
+      },
+      {
+        "id": "d",
+        "text": "Ян Ризинг"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Петер Стёйвесант был последним директором голландской колонии Новый Амстердам, ставшей затем Нью-Йорком.",
+    "countries": [
+      "netherlands",
+      "usa"
+    ],
+    "region": "north-america",
+    "period": "early-modern",
+    "topics": [
+      "politics"
+    ],
+    "yearFrom": 1664,
+    "yearTo": 1664
+  },
+  {
+    "id": "h02-104",
+    "level": 2,
+    "difficulty": 1030,
+    "question": "Английский инженер, спроектировавший трансатлантический пароход «Грейт Истерн» и множество мостов и туннелей викторианской эпохи, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Изамбард Кингдом Брюнель"
+      },
+      {
+        "id": "b",
+        "text": "Джордж Стефенсон"
+      },
+      {
+        "id": "c",
+        "text": "Джон Ренни"
+      },
+      {
+        "id": "d",
+        "text": "Томас Телфорд"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Изамбард Брюнель считается одним из величайших инженеров викторианской эпохи, изменивших облик транспортной инфраструктуры.",
+    "countries": [
+      "uk"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "technology"
+    ],
+    "yearFrom": 1859,
+    "yearTo": 1859
+  },
+  {
+    "id": "h02-105",
+    "level": 2,
+    "difficulty": 1040,
+    "question": "Английский натуралист, независимо от Дарвина пришедший к идее естественного отбора и приславший ему свою рукопись в 1858 году, звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Альфред Рассел Уоллес"
+      },
+      {
+        "id": "b",
+        "text": "Томас Гексли"
+      },
+      {
+        "id": "c",
+        "text": "Джозеф Гукер"
+      },
+      {
+        "id": "d",
+        "text": "Чарльз Лайель"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Уоллес независимо пришёл к теории естественного отбора, что подтолкнуло Дарвина к публикации собственного труда.",
+    "countries": [
+      "uk"
+    ],
+    "region": "europe",
+    "period": "19-century",
+    "topics": [
+      "science"
+    ],
+    "yearFrom": 1858,
+    "yearTo": 1858
+  },
+  {
+    "id": "h02-041",
+    "level": 2,
+    "difficulty": 1050,
+    "question": "Арабский мыслитель XIV века, заложивший основы социологии и философии истории в труде «Мукаддима», звался...",
+    "details": null,
+    "options": [
+      {
+        "id": "a",
+        "text": "Ибн Хальдун"
+      },
+      {
+        "id": "b",
+        "text": "Ибн Баттута"
+      },
+      {
+        "id": "c",
+        "text": "Аль-Фараби"
+      },
+      {
+        "id": "d",
+        "text": "Аль-Бируни"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ибн Хальдун считается одним из основателей исторической социологии благодаря труду «Мукаддима».",
+    "countries": [
+      "algeria"
+    ],
+    "region": "africa",
+    "period": "middle-ages",
+    "topics": [
+      "philosophy",
+      "science"
+    ],
+    "yearFrom": 1377,
+    "yearTo": 1377
   }
 ]

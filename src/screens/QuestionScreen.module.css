@@ -82,6 +82,8 @@
   bottom: 0;
   left: 0;
   right: 0;
+  display: flex;
+  justify-content: center;
   padding: var(--space-3) var(--space-4) calc(var(--space-3) + var(--safe-bottom));
   background: var(--color-bg);
   border-top: 1px solid var(--color-border);
@@ -89,5 +91,5 @@
 
 .bottomBar > * {
   max-width: var(--content-max-width);
-  margin: 0 auto;
+  width: 100%;
 }
