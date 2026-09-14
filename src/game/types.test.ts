@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { createInitialGameState } from "./reducer";
-import { defaultFilters, fromPersistedSession, toPersistedSession } from "./types";
+import { defaultCustomSettings, defaultFilters, fromPersistedSession, toPersistedSession, TOTAL_LEVELS } from "./types";
 
 describe("toPersistedSession: что сохраняем при активной попытке", () => {
   it("возвращает null на главном экране (нет активной попытки)", () => {
@@ -19,6 +19,16 @@ describe("toPersistedSession: что сохраняем при активной 
       mode: "lives" as const,
       finishReason: "completed" as const,
     };
+    expect(toPersistedSession(state)).toBeNull();
+  });
+
+  it("возвращает null на карте уровней — квиз ещё не начался, режим только выбран", () => {
+    const state = { ...createInitialGameState(), stage: "level-map" as const, mode: "lives" as const };
+    expect(toPersistedSession(state)).toBeNull();
+  });
+
+  it("возвращает null на экране настройки кастомного режима", () => {
+    const state = { ...createInitialGameState(), stage: "custom-setup" as const };
     expect(toPersistedSession(state)).toBeNull();
   });
 
@@ -49,8 +59,11 @@ describe("fromPersistedSession: восстановление состояния 
       stage: "question" as const,
       mode: "lives" as const,
       filters: defaultFilters,
+      customSettings: defaultCustomSettings,
+      totalLevels: TOTAL_LEVELS,
       currentLevel: 6,
       levelQuestions: [],
+      usedQuestionIds: [],
       questionIndex: 12,
       selectedOptionId: null,
       isAnswerLocked: false,

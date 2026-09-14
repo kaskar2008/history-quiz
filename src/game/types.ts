@@ -1,8 +1,14 @@
 import type { Period, Question, Region } from "../data/types";
 
-export type GameMode = "lives" | "god";
+export const MAX_LIVES_MISTAKES = 5;
+export const QUESTIONS_PER_LEVEL = 30;
+export const TOTAL_LEVELS = 10;
+/** Default seconds allowed to answer a single question before it auto-resolves as wrong. */
+export const QUESTION_TIME_LIMIT_SECONDS = 20;
 
-export type QuizScope = "world" | "country" | "region";
+export type GameMode = "lives" | "god" | "custom";
+
+export type QuizScope = "world" | "country" | "region" | "period";
 
 export interface QuizFilters {
   scope: QuizScope;
@@ -20,10 +26,36 @@ export const defaultFilters: QuizFilters = {
   topics: [],
 };
 
+/** Player-configurable mechanics for a "custom" mode run. Also used as the (fixed) defaults for "lives"/"god" runs. */
+export interface CustomSettings {
+  questionsPerLevel: number;
+  shuffleQuestions: boolean;
+  shuffleOptions: boolean;
+  /** Seconds allowed per question, or null for no time limit. */
+  timeLimitSeconds: number | null;
+}
+
+export const defaultCustomSettings: CustomSettings = {
+  questionsPerLevel: QUESTIONS_PER_LEVEL,
+  shuffleQuestions: false,
+  shuffleOptions: true,
+  timeLimitSeconds: QUESTION_TIME_LIMIT_SECONDS,
+};
+
+/** A named, player-saved snapshot of a custom-mode configuration, so it can be reused without reconfiguring. */
+export interface CustomPreset {
+  id: string;
+  name: string;
+  createdAt: string;
+  filters: QuizFilters;
+  customSettings: CustomSettings;
+}
+
 /** Finite set of stages the game reducer can be in. */
 export type GameStage =
   | "home"
   | "mode-selection"
+  | "custom-setup"
   | "level-map"
   | "loading"
   | "question"
@@ -108,8 +140,9 @@ export function createEmptyProgress(): StoredProgress {
     statistics: {
       lives: createEmptyModeStatistics(),
       god: createEmptyModeStatistics(),
+      custom: createEmptyModeStatistics(),
     },
-    bestLevelResults: { lives: {}, god: {} },
+    bestLevelResults: { lives: {}, god: {}, custom: {} },
     achievements: [],
     records: {},
   };
@@ -120,14 +153,19 @@ export interface GameState {
   stage: GameStage;
   mode: GameMode | null;
   filters: QuizFilters;
+  customSettings: CustomSettings;
+  /** Number of levels in this run: TOTAL_LEVELS normally, or 1 for a custom run grouped by period/country. */
+  totalLevels: number;
   currentLevel: number;
   levelQuestions: Question[];
+  /** Ids of questions already used earlier in this run, tracked so a custom run's global pool never repeats a question across levels. */
+  usedQuestionIds: string[];
   questionIndex: number;
   selectedOptionId: string | null;
   isAnswerLocked: boolean;
-  /** True when the current answer-result was reached because the 20s timer ran out, not a click. */
+  /** True when the current answer-result was reached because the timer ran out, not a click. */
   timedOut: boolean;
-  /** Epoch ms when the current question's timer expires; null while not actively counting down. */
+  /** Epoch ms when the current question's timer expires; null while not actively counting down (or when the run has no time limit). */
   questionDeadlineAt: number | null;
   score: number;
   correctAnswers: number;
@@ -147,18 +185,15 @@ export interface GameState {
 
 /**
  * Stages worth persisting so a page reload can resume an in-progress attempt.
- * "home", "mode-selection" and "game-result" are intentionally excluded:
- * there is either no progress to lose yet, or (for game-result) the run's
- * completion side effects have already been applied, so restoring into it
- * again on reload would risk double-counting stats/achievements.
+ * Deliberately starts at "loading", not "level-map": picking a mode (and, for
+ * "custom", configuring it) isn't an attempt in progress yet — nothing is
+ * saved until the player actually presses start. "home", "mode-selection",
+ * "custom-setup" and "game-result" are excluded for the same reason, or (for
+ * game-result) because the run's completion side effects have already been
+ * applied, so restoring into it again on reload would risk double-counting
+ * stats/achievements.
  */
-export const RESUMABLE_STAGES: readonly GameStage[] = [
-  "level-map",
-  "loading",
-  "question",
-  "answer-result",
-  "level-result",
-];
+export const RESUMABLE_STAGES: readonly GameStage[] = ["loading", "question", "answer-result", "level-result"];
 
 export function isResumableStage(stage: GameStage): boolean {
   return RESUMABLE_STAGES.includes(stage);
@@ -175,8 +210,11 @@ export interface PersistedSession {
   stage: GameStage;
   mode: GameMode;
   filters: QuizFilters;
+  customSettings: CustomSettings;
+  totalLevels: number;
   currentLevel: number;
   levelQuestions: Question[];
+  usedQuestionIds: string[];
   questionIndex: number;
   selectedOptionId: string | null;
   isAnswerLocked: boolean;
@@ -200,8 +238,11 @@ export function toPersistedSession(state: GameState): PersistedSession | null {
     stage: state.stage,
     mode: state.mode,
     filters: state.filters,
+    customSettings: state.customSettings,
+    totalLevels: state.totalLevels,
     currentLevel: state.currentLevel,
     levelQuestions: state.levelQuestions,
+    usedQuestionIds: state.usedQuestionIds,
     questionIndex: state.questionIndex,
     selectedOptionId: state.selectedOptionId,
     isAnswerLocked: state.isAnswerLocked,
@@ -224,8 +265,11 @@ export function fromPersistedSession(session: PersistedSession): GameState {
     stage: session.stage,
     mode: session.mode,
     filters: session.filters,
+    customSettings: session.customSettings,
+    totalLevels: session.totalLevels,
     currentLevel: session.currentLevel,
     levelQuestions: session.levelQuestions,
+    usedQuestionIds: session.usedQuestionIds,
     questionIndex: session.questionIndex,
     selectedOptionId: session.selectedOptionId,
     isAnswerLocked: session.isAnswerLocked,
@@ -247,9 +291,3 @@ export function fromPersistedSession(session: PersistedSession): GameState {
     error: null,
   };
 }
-
-export const MAX_LIVES_MISTAKES = 5;
-export const QUESTIONS_PER_LEVEL = 30;
-export const TOTAL_LEVELS = 10;
-/** Seconds allowed to answer a single question before it auto-resolves as wrong. */
-export const QUESTION_TIME_LIMIT_SECONDS = 20;

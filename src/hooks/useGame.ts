@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useReducer, useRef, useState } from "react";
 import {
   filterQuestions,
+  loadAllQuestions,
   loadLevelQuestions,
   prefetchLevelQuestions,
   selectQuestionsForLevel,
@@ -22,9 +23,8 @@ import { createInitialGameState, gameReducer } from "../game/reducer";
 import {
   fromPersistedSession,
   toPersistedSession,
-  QUESTIONS_PER_LEVEL,
-  TOTAL_LEVELS,
   type AttemptResult,
+  type CustomSettings,
   type GameMode,
   type GameState,
   type QuizFilters,
@@ -66,15 +66,28 @@ export function useGame() {
   useEffect(() => {
     if (state.stage !== "loading") return;
     let cancelled = false;
+    const isCustom = state.mode === "custom";
 
-    loadLevelQuestions(state.currentLevel)
+    const poolPromise = isCustom ? loadAllQuestions() : loadLevelQuestions(state.currentLevel);
+
+    poolPromise
       .then((pool) => {
         if (cancelled) return;
-        const filtered = filterQuestions(pool, state.filters);
+        let filtered = filterQuestions(pool, state.filters);
+        if (isCustom) {
+          // A custom run draws from one combined pool across all its levels,
+          // so exclude anything already asked earlier in this run.
+          filtered = filtered.filter((q) => !state.usedQuestionIds.includes(q.id));
+        }
         const source = filtered.length > 0 ? filtered : pool;
-        const selected = selectQuestionsForLevel(source, QUESTIONS_PER_LEVEL);
+        const selected = selectQuestionsForLevel(
+          source,
+          state.customSettings.questionsPerLevel,
+          Math.random,
+          state.customSettings.shuffleQuestions,
+        );
         dispatch({ type: "LEVEL_LOADED", questions: selected });
-        if (state.currentLevel < TOTAL_LEVELS) {
+        if (!isCustom && state.currentLevel < state.totalLevels) {
           prefetchLevelQuestions(state.currentLevel + 1);
         }
       })
@@ -100,6 +113,9 @@ export function useGame() {
   }, [state.stage, state.levelOutcomes.length]);
 
   // Persist per-level results (best score/stars + level-scoped achievements) as soon as a level completes.
+  // "custom" runs are intentionally excluded: they're for casual/practice play
+  // with player-chosen content and mechanics, so they shouldn't affect
+  // best-level results, achievements, or statistics.
   useEffect(() => {
     if (state.stage !== "level-result" && state.stage !== "game-result") return;
     if (state.levelOutcomes.length === 0) return;
@@ -108,7 +124,7 @@ export function useGame() {
     const latestOutcome = state.levelOutcomes[state.levelOutcomes.length - 1];
     processedLevelCount.current = state.levelOutcomes.length;
 
-    if (!state.mode) return;
+    if (!state.mode || state.mode === "custom") return;
 
     setProgress((current) => {
       let next = current;
@@ -120,7 +136,7 @@ export function useGame() {
         { level: latestOutcome.level, mistakesInLevel: latestOutcome.wrong, stars: latestOutcome.stars },
         latestOutcome.maxStreak,
       );
-      const keeperAchievements = checkKeeperOfTimeAchievement(next, state.mode as GameMode, TOTAL_LEVELS);
+      const keeperAchievements = checkKeeperOfTimeAchievement(next, state.mode as GameMode, state.totalLevels);
       const allNew = [...levelAchievements, ...keeperAchievements];
       if (allNew.length > 0) {
         next = addAchievements(next, allNew);
@@ -136,11 +152,13 @@ export function useGame() {
   }, [state.stage, state.levelOutcomes.length]);
 
   // Persist the finished attempt summary + run-scoped achievements + record check.
+  // "custom" runs are excluded, same as above: no attempt history, statistics,
+  // achievements, or records for a casual/practice run.
   useEffect(() => {
     if (state.stage !== "game-result") return;
     if (processedRun.current) return;
     processedRun.current = true;
-    if (!state.mode || !state.finishReason) return;
+    if (!state.mode || state.mode === "custom" || !state.finishReason) return;
 
     const attempt: AttemptResult = {
       id: `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
@@ -166,7 +184,7 @@ export function useGame() {
         mode: state.mode as GameMode,
         finishReason: state.finishReason!,
         highestLevelReached: state.currentLevel,
-        totalLevels: TOTAL_LEVELS,
+        totalLevels: state.totalLevels,
       });
       if (runAchievements.length > 0) {
         next = addAchievements(next, runAchievements);
@@ -199,10 +217,14 @@ export function useGame() {
   const goHome = useCallback(() => dispatch({ type: "GO_HOME" }), []);
 
   const goToModeSelection = useCallback(() => dispatch({ type: "GO_TO_MODE_SELECTION" }), []);
+  const goToCustomSetup = useCallback(() => dispatch({ type: "GO_TO_CUSTOM_SETUP" }), []);
 
-  const selectMode = useCallback((mode: GameMode, filters?: QuizFilters, startLevel?: number) => {
-    dispatch({ type: "SELECT_MODE", mode, filters, startLevel });
-  }, []);
+  const selectMode = useCallback(
+    (mode: GameMode, filters?: QuizFilters, startLevel?: number, customSettings?: CustomSettings) => {
+      dispatch({ type: "SELECT_MODE", mode, filters, startLevel, customSettings });
+    },
+    [],
+  );
 
   const startLevel = useCallback((level: number) => dispatch({ type: "START_LEVEL", level }), []);
   const selectAnswer = useCallback((optionId: string) => dispatch({ type: "SELECT_ANSWER", optionId }), []);
@@ -214,6 +236,7 @@ export function useGame() {
     progress,
     goHome,
     goToModeSelection,
+    goToCustomSetup,
     selectMode,
     startLevel,
     selectAnswer,

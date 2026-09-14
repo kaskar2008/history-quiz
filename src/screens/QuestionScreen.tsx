@@ -6,7 +6,7 @@ import { OptionButton, type OptionState } from "../components/OptionButton";
 import { QuestionTimer } from "../components/QuestionTimer";
 import { shuffle } from "../services/questionLoader";
 import type { Question } from "../data/types";
-import { QUESTION_TIME_LIMIT_SECONDS, type GameMode, type GameStage } from "../game/types";
+import type { GameMode, GameStage } from "../game/types";
 import styles from "./QuestionScreen.module.css";
 
 interface QuestionScreenProps {
@@ -15,6 +15,8 @@ interface QuestionScreenProps {
   selectedOptionId: string | null;
   timedOut: boolean;
   questionDeadlineAt: number | null;
+  timeLimitSeconds: number | null;
+  shuffleOptions: boolean;
   mode: GameMode;
   level: number;
   questionIndex: number;
@@ -36,6 +38,8 @@ export function QuestionScreen({
   selectedOptionId,
   timedOut,
   questionDeadlineAt,
+  timeLimitSeconds,
+  shuffleOptions,
   mode,
   level,
   questionIndex,
@@ -51,12 +55,16 @@ export function QuestionScreen({
   const isAnswered = stage === "answer-result";
   const isCorrect = isAnswered && !timedOut && selectedOptionId === question.correctOptionId;
 
-  // Shuffle the visual order of options per question so the correct answer's
-  // position can't be memorized across replays. Stable for the lifetime of
-  // this question (only reshuffles when the question itself changes), so it
-  // doesn't jump around on unrelated re-renders (e.g. the timer ticking).
+  // Shuffle the visual order of options per question (unless disabled) so the
+  // correct answer's position can't be memorized across replays. Stable for
+  // the lifetime of this question (only reshuffles when the question itself
+  // changes), so it doesn't jump around on unrelated re-renders (e.g. the
+  // timer ticking).
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const shuffledOptions = useMemo(() => shuffle(question.options), [question.id]);
+  const shuffledOptions = useMemo(
+    () => (shuffleOptions ? shuffle(question.options) : question.options),
+    [question.id, shuffleOptions],
+  );
 
   function getOptionState(optionId: string): OptionState {
     if (!isAnswered) return "idle";
@@ -79,11 +87,11 @@ export function QuestionScreen({
       />
 
       <div className={styles.content}>
-        {!isAnswered && questionDeadlineAt !== null && (
+        {!isAnswered && questionDeadlineAt !== null && timeLimitSeconds !== null && (
           <QuestionTimer
             key={question.id}
             deadlineAt={questionDeadlineAt}
-            totalDurationSeconds={QUESTION_TIME_LIMIT_SECONDS}
+            totalDurationSeconds={timeLimitSeconds}
             onExpire={onTimeExpired}
           />
         )}

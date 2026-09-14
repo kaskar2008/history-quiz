@@ -2,19 +2,19 @@ import type { Question } from "../data/types";
 import { getAnswerPoints, getLevelCompletionBonus, getStarsForLevel } from "../services/scoringService";
 import { gameRules } from "./config";
 import {
+  defaultCustomSettings,
   defaultFilters,
   MAX_LIVES_MISTAKES,
-  QUESTION_TIME_LIMIT_SECONDS,
-  QUESTIONS_PER_LEVEL,
   TOTAL_LEVELS,
+  type CustomSettings,
   type GameMode,
   type GameState,
   type LevelOutcome,
   type QuizFilters,
 } from "./types";
 
-function newQuestionDeadline(): number {
-  return Date.now() + QUESTION_TIME_LIMIT_SECONDS * 1000;
+function newQuestionDeadline(settings: CustomSettings): number | null {
+  return settings.timeLimitSeconds !== null ? Date.now() + settings.timeLimitSeconds * 1000 : null;
 }
 
 export function createInitialGameState(): GameState {
@@ -22,8 +22,11 @@ export function createInitialGameState(): GameState {
     stage: "home",
     mode: null,
     filters: defaultFilters,
+    customSettings: defaultCustomSettings,
+    totalLevels: TOTAL_LEVELS,
     currentLevel: 1,
     levelQuestions: [],
+    usedQuestionIds: [],
     questionIndex: 0,
     selectedOptionId: null,
     isAnswerLocked: false,
@@ -49,7 +52,8 @@ export function createInitialGameState(): GameState {
 export type GameAction =
   | { type: "GO_HOME" }
   | { type: "GO_TO_MODE_SELECTION" }
-  | { type: "SELECT_MODE"; mode: GameMode; filters?: QuizFilters; startLevel?: number }
+  | { type: "GO_TO_CUSTOM_SETUP" }
+  | { type: "SELECT_MODE"; mode: GameMode; filters?: QuizFilters; startLevel?: number; customSettings?: CustomSettings }
   | { type: "GO_TO_LEVEL_MAP" }
   | { type: "START_LEVEL"; level: number }
   | { type: "LEVEL_LOADED"; questions: Question[] }
@@ -121,12 +125,20 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
       return { ...createInitialGameState(), stage: "mode-selection" };
     }
 
+    case "GO_TO_CUSTOM_SETUP": {
+      return { ...createInitialGameState(), stage: "custom-setup" };
+    }
+
     case "SELECT_MODE": {
+      const filters = action.filters ?? defaultFilters;
+      const totalLevels = action.mode === "custom" && filters.scope !== "world" ? 1 : TOTAL_LEVELS;
       return {
         ...createInitialGameState(),
         stage: "level-map",
         mode: action.mode,
-        filters: action.filters ?? defaultFilters,
+        filters,
+        customSettings: action.customSettings ?? defaultCustomSettings,
+        totalLevels,
         currentLevel: action.startLevel ?? 1,
       };
     }
@@ -145,11 +157,12 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
         ...state,
         stage: "question",
         levelQuestions: action.questions,
+        usedQuestionIds: [...state.usedQuestionIds, ...action.questions.map((q) => q.id)],
         questionIndex: 0,
         selectedOptionId: null,
         isAnswerLocked: false,
         timedOut: false,
-        questionDeadlineAt: newQuestionDeadline(),
+        questionDeadlineAt: newQuestionDeadline(state.customSettings),
         mistakesInLevel: 0,
         error: null,
       };
@@ -189,7 +202,7 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
             selectedOptionId: null,
             isAnswerLocked: false,
             timedOut: false,
-            questionDeadlineAt: newQuestionDeadline(),
+            questionDeadlineAt: newQuestionDeadline(state.customSettings),
           };
         }
 
@@ -214,7 +227,7 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
           levelOutcomes: [...state.levelOutcomes, outcome],
         };
 
-        if (state.currentLevel >= TOTAL_LEVELS) {
+        if (state.currentLevel >= state.totalLevels) {
           return { ...nextState, stage: "game-result", finishReason: "completed" };
         }
 
@@ -222,7 +235,7 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
       }
 
       if (state.stage === "level-result") {
-        if (state.currentLevel >= TOTAL_LEVELS) {
+        if (state.currentLevel >= state.totalLevels) {
           return { ...state, stage: "game-result", finishReason: "completed" };
         }
         return { ...state, stage: "loading", currentLevel: state.currentLevel + 1, error: null };
@@ -242,10 +255,6 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
     default:
       return state;
   }
-}
-
-export function getQuestionsPerLevelTarget(): number {
-  return QUESTIONS_PER_LEVEL;
 }
 
 export function getCelebratedStreaks(): number[] {

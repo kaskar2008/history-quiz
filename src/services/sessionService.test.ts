@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from "vitest";
-import type { PersistedSession } from "../game/types";
+import { defaultCustomSettings, TOTAL_LEVELS, type PersistedSession } from "../game/types";
 import { clearSession, loadSession, saveSession, SESSION_STORAGE_KEY } from "./sessionService";
 
 function makeSession(overrides: Partial<PersistedSession> = {}): PersistedSession {
@@ -8,8 +8,11 @@ function makeSession(overrides: Partial<PersistedSession> = {}): PersistedSessio
     stage: "question",
     mode: "lives",
     filters: { scope: "world", countries: [], regions: [], periods: [], topics: [] },
+    customSettings: defaultCustomSettings,
+    totalLevels: TOTAL_LEVELS,
     currentLevel: 3,
     levelQuestions: [],
+    usedQuestionIds: [],
     questionIndex: 5,
     selectedOptionId: null,
     isAnswerLocked: false,

@@ -5,6 +5,12 @@ import { getRankForScore } from "../services/scoringService";
 import type { FinishReason, GameMode } from "../game/types";
 import styles from "./GameResultScreen.module.css";
 
+const modeLabels: Record<GameMode, string> = {
+  lives: "Жизни",
+  god: "Бог",
+  custom: "Кастом",
+};
+
 interface GameResultScreenProps {
   mode: GameMode;
   finishReason: FinishReason;
@@ -49,7 +55,7 @@ export function GameResultScreen({
   return (
     <PageContainer>
       <div className={styles.wrapper}>
-        <p className={styles.eyebrow}>Режим «{mode === "lives" ? "Жизни" : "Бог"}»</p>
+        <p className={styles.eyebrow}>Режим «{modeLabels[mode]}»</p>
         <h1 className={styles.heading}>{heading}</h1>
 
         {isNewRecord && (

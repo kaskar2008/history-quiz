@@ -3,6 +3,7 @@ import { AchievementToastHost } from "./components/AchievementToast";
 import { ExitConfirmDialog } from "./components/ExitConfirmDialog";
 import { useGame } from "./hooks/useGame";
 import { AchievementsScreen } from "./screens/AchievementsScreen";
+import { CustomSetupScreen } from "./screens/CustomSetupScreen";
 import { GameResultScreen } from "./screens/GameResultScreen";
 import { HomeScreen } from "./screens/HomeScreen";
 import { LevelMapScreen } from "./screens/LevelMapScreen";
@@ -11,7 +12,6 @@ import { LoadingScreen } from "./screens/LoadingScreen";
 import { ModeSelectionScreen } from "./screens/ModeSelectionScreen";
 import { QuestionScreen } from "./screens/QuestionScreen";
 import { StatisticsScreen } from "./screens/StatisticsScreen";
-import { TOTAL_LEVELS } from "./game/types";
 
 type AppView = "game" | "statistics" | "achievements";
 
@@ -21,6 +21,7 @@ function App() {
     progress,
     goHome,
     goToModeSelection,
+    goToCustomSetup,
     selectMode,
     startLevel,
     selectAnswer,
@@ -69,16 +70,31 @@ function App() {
       )}
 
       {state.stage === "mode-selection" && (
-        <ModeSelectionScreen onSelect={(mode) => selectMode(mode)} onBack={goHome} />
+        <ModeSelectionScreen
+          onSelect={(mode) => selectMode(mode)}
+          onSelectCustom={goToCustomSetup}
+          onSelectPreset={(preset) => selectMode("custom", preset.filters, undefined, preset.customSettings)}
+          onBack={goHome}
+        />
+      )}
+
+      {state.stage === "custom-setup" && (
+        <CustomSetupScreen
+          onBack={goToModeSelection}
+          onStart={(filters, customSettings) => selectMode("custom", filters, undefined, customSettings)}
+        />
       )}
 
       {state.stage === "level-map" && state.mode && (
         <LevelMapScreen
           mode={state.mode}
+          totalLevels={state.totalLevels}
+          questionsPerLevel={state.customSettings.questionsPerLevel}
           currentLevel={state.currentLevel}
           progress={progress}
           error={state.error}
           onStart={() => startLevel(state.currentLevel)}
+          onSelectLevel={startLevel}
           onBack={goHome}
         />
       )}
@@ -94,6 +110,8 @@ function App() {
             selectedOptionId={state.selectedOptionId}
             timedOut={state.timedOut}
             questionDeadlineAt={state.questionDeadlineAt}
+            timeLimitSeconds={state.customSettings.timeLimitSeconds}
+            shuffleOptions={state.customSettings.shuffleOptions}
             mode={state.mode}
             level={state.currentLevel}
             questionIndex={state.questionIndex}
@@ -111,7 +129,7 @@ function App() {
       {state.stage === "level-result" && state.levelOutcomes.length > 0 && (
         <LevelResultScreen
           outcome={state.levelOutcomes[state.levelOutcomes.length - 1]}
-          isLastLevel={state.currentLevel >= TOTAL_LEVELS}
+          isLastLevel={state.currentLevel >= state.totalLevels}
           onNext={next}
           onRequestExit={requestExit}
         />

@@ -16,7 +16,7 @@ function isPlainObject(value: unknown): value is Record<string, unknown> {
 function isValidSessionShape(value: unknown): value is PersistedSession {
   if (!isPlainObject(value)) return false;
   if (value.version !== 1) return false;
-  if (value.mode !== "lives" && value.mode !== "god") return false;
+  if (value.mode !== "lives" && value.mode !== "god" && value.mode !== "custom") return false;
   if (typeof value.stage !== "string") return false;
   if (typeof value.currentLevel !== "number") return false;
   if (!Array.isArray(value.levelQuestions)) return false;

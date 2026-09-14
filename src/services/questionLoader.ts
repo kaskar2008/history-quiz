@@ -57,6 +57,34 @@ export function prefetchLevelQuestions(level: number): void {
   });
 }
 
+let allQuestionsPromise: Promise<Question[]> | null = null;
+
+/**
+ * Loads and combines every level's question bank into one pool, deduplicated
+ * by id. Used by "custom" mode, which groups/filters across the whole game
+ * rather than a single level file. Cached module-wide (same underlying
+ * per-level cache as loadLevelQuestions, so this costs nothing extra once the
+ * normal game has already visited every level).
+ */
+export function loadAllQuestions(): Promise<Question[]> {
+  if (!allQuestionsPromise) {
+    const levels = getQuestionsIndex().levels.map((entry) => entry.level);
+    allQuestionsPromise = Promise.all(levels.map((level) => loadLevelQuestions(level)))
+      .then((lists) => Array.from(new Map(lists.flat().map((q) => [q.id, q])).values()))
+      .catch((err: unknown) => {
+        allQuestionsPromise = null;
+        throw err;
+      });
+  }
+  return allQuestionsPromise;
+}
+
+/** Per-level cap for a custom run: the matching pool split evenly across its levels. */
+export function getMaxQuestionsPerLevel(filteredCount: number, levelCount: number): number {
+  if (levelCount <= 0) return 0;
+  return Math.max(1, Math.floor(filteredCount / levelCount));
+}
+
 /**
  * Filters a question pool by the current QuizFilters. Currently the app only
  * ships "world" scope content, but this keeps the selection logic ready for
@@ -98,10 +126,12 @@ export function shuffle<T>(items: T[], randomFn: () => number = Math.random): T[
 
 /**
  * Selects `count` unique questions from the pool (no repeats within the
- * selection), then orders the selection by `difficulty` ascending so a
- * playthrough always progresses from easier to harder questions — even
- * though which questions were picked is random. If the pool has fewer than
- * `count` questions, the whole pool is used (still sorted by difficulty).
+ * selection). Which questions get picked is always random; `shuffleOrder`
+ * controls how the selection is then presented: false (the default, matching
+ * every mode except a custom run with shuffling enabled) sorts by
+ * `difficulty` ascending so a playthrough progresses from easier to harder;
+ * true keeps the random selection order instead. If the pool has fewer than
+ * `count` questions, the whole pool is used.
  *
  * Growing the pool (adding more questions to a level over time) works
  * automatically: new questions just need a `difficulty` value to slot into
@@ -111,9 +141,10 @@ export function selectQuestionsForLevel(
   pool: Question[],
   count: number,
   randomFn: () => number = Math.random,
+  shuffleOrder: boolean = false,
 ): Question[] {
   const uniqueById = Array.from(new Map(pool.map((q) => [q.id, q])).values());
   const shuffled = shuffle(uniqueById, randomFn);
   const picked = shuffled.slice(0, Math.min(count, shuffled.length));
-  return picked.sort((a, b) => a.difficulty - b.difficulty);
+  return shuffleOrder ? picked : picked.sort((a, b) => a.difficulty - b.difficulty);
 }

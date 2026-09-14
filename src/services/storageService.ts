@@ -31,7 +31,7 @@ function isAttemptResult(value: unknown): value is AttemptResult {
   return (
     typeof v.id === "string" &&
     typeof v.completedAt === "string" &&
-    (v.mode === "lives" || v.mode === "god") &&
+    (v.mode === "lives" || v.mode === "god" || v.mode === "custom") &&
     typeof v.score === "number" &&
     typeof v.correctAnswers === "number" &&
     typeof v.wrongAnswers === "number" &&
@@ -53,7 +53,7 @@ function isValidProgressShape(value: unknown): value is StoredProgress {
   if (!Array.isArray(v.attempts) || !v.attempts.every(isAttemptResult)) return false;
   if (typeof v.statistics !== "object" || v.statistics === null) return false;
   const stats = v.statistics as Record<string, unknown>;
-  if (!isModeStatistics(stats.lives) || !isModeStatistics(stats.god)) return false;
+  if (!isModeStatistics(stats.lives) || !isModeStatistics(stats.god) || !isModeStatistics(stats.custom)) return false;
   if (typeof v.bestLevelResults !== "object" || v.bestLevelResults === null) return false;
   if (!Array.isArray(v.achievements) || !v.achievements.every((a) => typeof a === "string")) {
     return false;

@@ -64,6 +64,25 @@
   opacity: 0.55;
 }
 
+.itemButton {
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  transition:
+    border-color 0.12s ease,
+    background-color 0.12s ease;
+}
+
+.itemButton:hover {
+  border-color: var(--color-gold-500);
+}
+
+.itemButton:active {
+  background: var(--color-parchment-200);
+}
+
 .itemMain {
   display: flex;
   align-items: center;
